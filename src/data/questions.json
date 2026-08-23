@@ -180,6 +180,36 @@
     "level": 2,
     "question": "Bạn mong muốn tụi mình chuẩn bị những gì về mặt tâm lý và nền tảng cuộc sống trước khi chính thức về chung một nhà?"
   },
+  {
+    "id": "couple-d1",
+    "pack": "couple",
+    "level": 2,
+    "question": "Khi bực tức hoặc bị tổn thương bởi người yêu, phản ứng đầu tiên trong thực tế của bạn là: im lặng rút lui, muốn làm cho ra lẽ ngay lập tức, hay giả vờ như không có gì?"
+  },
+  {
+    "id": "couple-d2",
+    "pack": "couple",
+    "level": 2,
+    "question": "Lần gần nhất hai đứa bất đồng quan điểm, bạn đã làm gì cụ thể để cơn giận không biến thành lời nói xúc phạm hoặc làm tổn thương nhau?"
+  },
+  {
+    "id": "couple-d3",
+    "pack": "couple",
+    "level": 2,
+    "question": "Khi cuộc sống riêng của bạn gặp khó khăn (áp lực công việc, tiền bạc), bạn thường có xu hướng trút bực dọc lên người yêu hay tự cô lập mình?"
+  },
+  {
+    "id": "couple-d4",
+    "pack": "couple",
+    "level": 2,
+    "question": "Nếu bạn nhận ra mình đã sai trong một cuộc tranh luận, bạn thường mất bao lâu để vượt qua cái tôi và chủ động nói lời xin lỗi?"
+  },
+  {
+    "id": "couple-d5",
+    "pack": "couple",
+    "level": 2,
+    "question": "Khi hai người có quan điểm hoàn toàn trái ngược về một việc quan trọng, bạn thường chọn nhượng bộ ngậm ngùi, kiên nhẫn tìm điểm chung, hay bảo vệ ý kiến đến cùng?"
+  },
 
   {
     "id": "couple-31",
@@ -331,6 +361,18 @@
     "level": 3,
     "question": "Cử chỉ hay sự tiếp xúc thân mật nào trong đời sống hàng ngày (ngoài chuyện chăn gối) khiến bạn cảm thấy đối phương vẫn luôn bị bạn cuốn hút?"
   },
+  {
+    "id": "couple-r1",
+    "pack": "couple",
+    "level": 3,
+    "question": "Một chuyện gần đây nhất mà bạn cảm thấy mình đã chủ động đối diện và xử lý rất tốt để mối quan hệ của tụi mình tốt đẹp hơn là gì?"
+  },
+  {
+    "id": "couple-r2",
+    "pack": "couple",
+    "level": 3,
+    "question": "Có một khúc mắc, nỗi lo hay sự không thoải mái nào về đối phương/mối quan hệ mà bạn đang âm thầm né tránh chưa dám mở lời không?"
+  },
 
   {
     "id": "friends-01",
@@ -429,6 +471,36 @@
     "level": 2,
     "question": "Bạn cảm thấy tình bạn này đã giúp bạn trưởng thành và bớt tự ti hơn ở điểm nào?"
   },
+  {
+    "id": "friends-d1",
+    "pack": "friends",
+    "level": 2,
+    "question": "Khi một người bạn thân làm điều khiến bạn thất vọng hoặc tổn thương, phản ứng thực tế của bạn là: nói thẳng mặt, giữ khoảng cách im lặng, hay giả vờ bỏ qua?"
+  },
+  {
+    "id": "friends-d2",
+    "pack": "friends",
+    "level": 2,
+    "question": "Nếu trong nhóm xảy ra mâu thuẫn và chia phe, bạn thường hành xử thế nào: đứng ra kéo mọi người ngồi lại, chọn đứng về một bên, hay im lặng đứng ngoài?"
+  },
+  {
+    "id": "friends-d3",
+    "pack": "friends",
+    "level": 2,
+    "question": "Khi bản thân rơi vào khủng hoảng hoặc thất bại nặng nề, bạn có chủ động tìm đến bạn bè tâm sự không, hay cố gồng tỏ ra mình vẫn ổn?"
+  },
+  {
+    "id": "friends-d4",
+    "pack": "friends",
+    "level": 2,
+    "question": "Khi thấy bạn thân đang đưa ra quyết định sai lầm (trong tình cảm hoặc sự nghiệp), bạn sẽ can ngăn quyết liệt hay tôn trọng để họ tự trải nghiệm hậu quả?"
+  },
+  {
+    "id": "friends-d5",
+    "pack": "friends",
+    "level": 2,
+    "question": "Nếu cảm thấy mối quan hệ với một người bạn đang dần xa cách và nhạt nhòa, phản ứng thực tế của bạn là chủ động níu giữ hay để mọi thứ tự trôi đi theo thời gian?"
+  },
 
   {
     "id": "friends-17",
@@ -477,6 +549,18 @@
     "pack": "friends",
     "level": 3,
     "question": "Lời cảm ơn chân thành nhất mà bạn muốn nói với những người bạn đang ngồi cạnh bạn hôm nay là gì?"
+  },
+  {
+    "id": "friends-r1",
+    "pack": "friends",
+    "level": 3,
+    "question": "Một mâu thuẫn, hiểu lầm hoặc tình huống khó xử với một người bạn gần đây mà bạn cảm thấy mình đã xử lý chín chắn và đúng đắn là gì?"
+  },
+  {
+    "id": "friends-r2",
+    "pack": "friends",
+    "level": 3,
+    "question": "Có một cuộc trò chuyện thẳng thắn, một thắc mắc hoặc một lời xin lỗi với một người bạn nào đó mà bạn đã né tránh rất lâu và đến giờ vẫn chưa nói ra không?"
   },
 
   {
@@ -576,6 +660,36 @@
     "level": 2,
     "question": "Điều bạn mong mỏi bố mẹ dành cho bản thân họ nhiều hơn thay vì chỉ mãi lo lắng cho con cái?"
   },
+  {
+    "id": "family-d1",
+    "pack": "family",
+    "level": 2,
+    "question": "Thời thơ ấu khi người lớn trong nhà cãi nhau, cách họ xử lý là gì (la mắng, chiến tranh lạnh, nói chuyện) và bạn có thấy mình đang vô thức lặp lại cách đó không?"
+  },
+  {
+    "id": "family-d2",
+    "pack": "family",
+    "level": 2,
+    "question": "Khi bị người thân trong gia đình áp đặt hoặc chỉ trích, phản ứng thực tế của bạn là: phản kháng gay gắt, im lặng cam chịu, hay tìm cách giải thích bình tĩnh?"
+  },
+  {
+    "id": "family-d3",
+    "pack": "family",
+    "level": 2,
+    "question": "Gia đình bạn thường đối diện với khó khăn tài chính hoặc biến cố lớn bằng sự san sẻ đoàn kết hay bằng sự căng thẳng đổ lỗi?"
+  },
+  {
+    "id": "family-d4",
+    "pack": "family",
+    "level": 2,
+    "question": "Có thói quen đối phó tiêu cực nào của bố mẹ (như trốn tránh vấn đề, trút giận lên người khác) mà bạn đang phải nỗ lực để không lặp lại ở bản thân?"
+  },
+  {
+    "id": "family-d5",
+    "pack": "family",
+    "level": 2,
+    "question": "Khi có sự bất đồng lớn về quan điểm sống giữa bạn và gia đình, bạn chọn cách 'vâng dạ cho qua chuyện' hay kiên trì đối thoại để bảo vệ chính kiến?"
+  },
 
   {
     "id": "family-17",
@@ -624,6 +738,18 @@
     "pack": "family",
     "level": 3,
     "question": "Nếu chỉ được nhắn gửi một câu ngắn gọn cho cả nhà ghi nhớ mãi, bạn sẽ nói điều gì?"
+  },
+  {
+    "id": "family-r1",
+    "pack": "family",
+    "level": 3,
+    "question": "Một lần gần đây nhất bạn đã dũng cảm ngồi lại nói chuyện thẳng thắn và tháo gỡ được một hiểu lầm lâu năm với bố mẹ hoặc người thân là khi nào?"
+  },
+  {
+    "id": "family-r2",
+    "pack": "family",
+    "level": 3,
+    "question": "Có một chuyện gia đình hoặc khúc mắc trong nhà mà bạn đã né tránh đối diện suốt thời gian dài vì sợ làm tổn thương nhau không?"
   },
 
   {
@@ -723,6 +849,36 @@
     "level": 2,
     "question": "Một dự án hoặc thành quả công việc chung của team khiến bạn cảm thấy tự hào nhất khi nhìn lại?"
   },
+  {
+    "id": "work-d1",
+    "pack": "work",
+    "level": 2,
+    "question": "Khi bạn gây ra một sự cố hoặc lỗi sai nghiêm trọng trong công việc, phản ứng đầu tiên trong thực tế của bạn là: tự tìm cách âm thầm sửa, chủ động báo cáo nhận lỗi ngay, hay tìm lý do khách quan giải thích?"
+  },
+  {
+    "id": "work-d2",
+    "pack": "work",
+    "level": 2,
+    "question": "Khi phải làm việc chung với đồng nghiệp hoặc cấp trên có phong cách xung đột gay gắt với mình, bạn thường chọn cách thích nghi nhẫn nhịn, đối thoại thẳng thắn, hay hạn chế tiếp xúc tối đa?"
+  },
+  {
+    "id": "work-d3",
+    "pack": "work",
+    "level": 2,
+    "question": "Khi khối lượng công việc quá tải và deadline dồn dập, bạn có xu hướng cố cắn răng làm thêm giờ kiệt sức hay chủ động lên tiếng xin hỗ trợ và giãn tiến độ?"
+  },
+  {
+    "id": "work-d4",
+    "pack": "work",
+    "level": 2,
+    "question": "Nếu bị đối xử thiếu công bằng hoặc không được ghi nhận xứng đáng tại chỗ làm, phản ứng thực tế của bạn là đấu tranh đòi quyền lợi, bất mãn âm thầm, hay rải CV tìm chỗ mới?"
+  },
+  {
+    "id": "work-d5",
+    "pack": "work",
+    "level": 2,
+    "question": "Khi team gặp sự cố và không khí làm việc căng thẳng đổ lỗi cho nhau, bạn thường làm gì cụ thể để kéo sự tập trung của mọi người về việc giải quyết vấn đề?"
+  },
 
   {
     "id": "work-17",
@@ -771,5 +927,17 @@
     "pack": "work",
     "level": 3,
     "question": "Lời khuyên đắt giá nhất về sự nghiệp mà bạn từng nhận được từ một người đi trước là gì?"
+  },
+  {
+    "id": "work-r1",
+    "pack": "work",
+    "level": 3,
+    "question": "Một sự cố, khủng hoảng hoặc áp lực công việc gần đây mà bạn cảm thấy tự hào vì mình đã giữ được bình tĩnh và giải quyết rất tốt là gì?"
+  },
+  {
+    "id": "work-r2",
+    "pack": "work",
+    "level": 3,
+    "question": "Có một đầu việc khó nhằn, một email hoặc một cuộc đối thoại khó khăn với đồng nghiệp/sếp mà bạn đã né tránh trì hoãn suốt thời gian gần đây không?"
   }
 ]
