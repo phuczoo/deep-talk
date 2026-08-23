@@ -1,0 +1,365 @@
+[
+  {
+    "id": "couple-01",
+    "pack": "couple",
+    "level": 1,
+    "question": "Món ăn nào bạn có thể ăn mỗi ngày cùng nhau mà không bao giờ thấy chán?"
+  },
+  {
+    "id": "couple-02",
+    "pack": "couple",
+    "level": 1,
+    "question": "Ấn tượng đầu tiên của bạn về đối phương trong lần đầu gặp mặt là gì?"
+  },
+  {
+    "id": "couple-03",
+    "pack": "couple",
+    "level": 1,
+    "question": "Hành động ngốc nghếch hay dễ thương nào của đối phương khiến bạn bất giác bật cười?"
+  },
+  {
+    "id": "couple-04",
+    "pack": "couple",
+    "level": 1,
+    "question": "Nếu tụi mình có một ngày cuối tuần hoàn toàn không vướng bận, bạn muốn cả hai làm gì cùng nhau?"
+  },
+  {
+    "id": "couple-05",
+    "pack": "couple",
+    "level": 1,
+    "question": "Bài hát nào mỗi khi vang lên sẽ khiến bạn lập tức nhớ đến người kia?"
+  },
+  {
+    "id": "couple-06",
+    "pack": "couple",
+    "level": 2,
+    "question": "Hành động nhỏ nào của đối phương thường khiến bạn cảm thấy được yêu thương và trân trọng nhất?"
+  },
+  {
+    "id": "couple-07",
+    "pack": "couple",
+    "level": 2,
+    "question": "Có thói quen hay tính cách nào của mình mà bạn mong muốn mình có thể cùng bạn cải thiện không?"
+  },
+  {
+    "id": "couple-08",
+    "pack": "couple",
+    "level": 2,
+    "question": "Khoảnh khắc nào trong mối quan hệ này khiến bạn nhận ra mình đã thực sự yêu người kia?"
+  },
+  {
+    "id": "couple-09",
+    "pack": "couple",
+    "level": 2,
+    "question": "Sau những lần giận nhau, cách dỗ dành nào hiệu quả nhất đối với bạn?"
+  },
+  {
+    "id": "couple-10",
+    "pack": "couple",
+    "level": 2,
+    "question": "Một điều bạn luôn muốn thử làm cùng người kia nhưng chưa có cơ hội là gì?"
+  },
+  {
+    "id": "couple-11",
+    "pack": "couple",
+    "level": 3,
+    "question": "Nỗi sợ lớn nhất của bạn về tình cảm hoặc tương lai của tụi mình là gì?"
+  },
+  {
+    "id": "couple-12",
+    "pack": "couple",
+    "level": 3,
+    "question": "Điều gì ở đối phương khiến bạn cảm thấy được an toàn và là chính mình nhất khi ở cạnh?"
+  },
+  {
+    "id": "couple-13",
+    "pack": "couple",
+    "level": 3,
+    "question": "Nếu nhìn lại từ lúc quen nhau đến nay, đối phương đã giúp bạn thay đổi hoặc trưởng thành hơn ở điểm nào?"
+  },
+  {
+    "id": "couple-14",
+    "pack": "couple",
+    "level": 3,
+    "question": "Bạn hình dung cuộc sống của tụi mình trong 5 năm tới sẽ có hình dáng như thế nào?"
+  },
+  {
+    "id": "couple-15",
+    "pack": "couple",
+    "level": 3,
+    "question": "Có điều gì trong lòng bạn bấy lâu nay muốn tâm sự với mình nhưng chưa tìm được dịp thích hợp không?"
+  },
+
+  {
+    "id": "friends-01",
+    "pack": "friends",
+    "level": 1,
+    "question": "Kỷ niệm 'dở khóc dở cười' hoặc nghịch dại nhất của nhóm mình mà bạn nhớ mãi là gì?"
+  },
+  {
+    "id": "friends-02",
+    "pack": "friends",
+    "level": 1,
+    "question": "Nếu bỗng nhiên trúng 10 tỷ, điều điên rồ đầu tiên bạn muốn cùng bạn bè thực hiện là gì?"
+  },
+  {
+    "id": "friends-03",
+    "pack": "friends",
+    "level": 1,
+    "question": "Biệt danh hài hước hoặc 'meme' bất hủ nhất của bạn trong mắt hội bạn là gì?"
+  },
+  {
+    "id": "friends-04",
+    "pack": "friends",
+    "level": 1,
+    "question": "Nếu nhóm mình phải sống sót trên một hoang đảo, ai sẽ là người trụ lại cuối cùng?"
+  },
+  {
+    "id": "friends-05",
+    "pack": "friends",
+    "level": 1,
+    "question": "Món ăn 'quán ruột' nào mỗi lần nhóm gặp nhau là phải ghé ăn cho bằng được?"
+  },
+  {
+    "id": "friends-06",
+    "pack": "friends",
+    "level": 2,
+    "question": "Điều gì ở tính cách của bạn bè trong nhóm mà bạn ngưỡng mộ nhưng chưa bao giờ trực tiếp khen?"
+  },
+  {
+    "id": "friends-07",
+    "pack": "friends",
+    "level": 2,
+    "question": "Một lần bạn gặp khó khăn hay bế tắc trong cuộc sống mà sự có mặt của bạn bè đã cứu vớt tâm trạng của bạn?"
+  },
+  {
+    "id": "friends-08",
+    "pack": "friends",
+    "level": 2,
+    "question": "Góc nhìn hoặc quan điểm sống nào của bạn đã thay đổi tích cực sau khi chơi thân với nhóm này?"
+  },
+  {
+    "id": "friends-09",
+    "pack": "friends",
+    "level": 2,
+    "question": "Theo bạn, ranh giới giữa việc 'trêu đùa vui vẻ' và 'làm tổn thương bạn bè' là ở đâu?"
+  },
+  {
+    "id": "friends-10",
+    "pack": "friends",
+    "level": 2,
+    "question": "Kỷ niệm du lịch hoặc 'phượt' nào cùng nhau khiến bạn cảm thấy gắn kết nhất?"
+  },
+  {
+    "id": "friends-11",
+    "pack": "friends",
+    "level": 3,
+    "question": "Khoảng thời gian nào trong quá khứ bạn cảm thấy cô đơn và lạc lõng nhất?"
+  },
+  {
+    "id": "friends-12",
+    "pack": "friends",
+    "level": 3,
+    "question": "Một sai lầm hoặc tiếc nuối trong quá khứ mà bạn ước gì mình có thể tha thứ cho chính bản thân?"
+  },
+  {
+    "id": "friends-13",
+    "pack": "friends",
+    "level": 3,
+    "question": "Áp lực lớn nhất bạn đang phải âm thầm gánh vác ở thời điểm hiện tại là gì?"
+  },
+  {
+    "id": "friends-14",
+    "pack": "friends",
+    "level": 3,
+    "question": "Nếu sau này mỗi người một ngã rẽ và bận rộn với gia đình, bạn muốn tụi mình giữ lời hứa gì cùng nhau?"
+  },
+  {
+    "id": "friends-15",
+    "pack": "friends",
+    "level": 3,
+    "question": "Điều gì khiến bạn trân trọng nhất ở tình bạn này mà khó tìm thấy ở những mối quan hệ khác?"
+  },
+
+  {
+    "id": "family-01",
+    "pack": "family",
+    "level": 1,
+    "question": "Món ăn nào của gia đình nấu mà dù đi bất cứ nhà hàng sang trọng nào bạn cũng thấy không bằng?"
+  },
+  {
+    "id": "family-02",
+    "pack": "family",
+    "level": 1,
+    "question": "Câu nói cửa miệng quen thuộc hoặc thói quen hài hước nào của bố/mẹ khiến cả nhà bật cười?"
+  },
+  {
+    "id": "family-03",
+    "pack": "family",
+    "level": 1,
+    "question": "Kỷ niệm đón Tết hoặc chuyến đi chơi cả nhà đông đủ nhất mà bạn nhớ sâu sắc là chuyến đi nào?"
+  },
+  {
+    "id": "family-04",
+    "pack": "family",
+    "level": 1,
+    "question": "Bạn thấy mình giống bố mẹ nhất ở nét tính cách hay sở thích kỳ lạ nào?"
+  },
+  {
+    "id": "family-05",
+    "pack": "family",
+    "level": 1,
+    "question": "Đồ vật cổ hoặc kỷ vật nào trong nhà mà bạn thấy gia đình gìn giữ suốt bao năm qua?"
+  },
+  {
+    "id": "family-06",
+    "pack": "family",
+    "level": 2,
+    "question": "Khoảnh khắc nào khiến bạn giật mình nhận ra bố mẹ hoặc người thân của mình đã già đi?"
+  },
+  {
+    "id": "family-07",
+    "pack": "family",
+    "level": 2,
+    "question": "Khoảng cách thế hệ nào giữa bạn và gia đình mà bạn luôn mong hai bên có thể thấu hiểu nhau hơn?"
+  },
+  {
+    "id": "family-08",
+    "pack": "family",
+    "level": 2,
+    "question": "Một bài học đạo đức hoặc cách đối nhân xử thế từ gia đình mà bạn luôn mang theo làm kim chỉ nam?"
+  },
+  {
+    "id": "family-09",
+    "pack": "family",
+    "level": 2,
+    "question": "Điều gì người thân đã âm thầm hy sinh vì bạn mà sau này lớn lên bạn mới thấu hiểu?"
+  },
+  {
+    "id": "family-10",
+    "pack": "family",
+    "level": 2,
+    "question": "Một lời khen hoặc sự công nhận từ gia đình mà bạn từng khao khát nhận được nhất thời thơ ấu?"
+  },
+  {
+    "id": "family-11",
+    "pack": "family",
+    "level": 3,
+    "question": "Lời xin lỗi nào với người thân trong gia đình mà bấy lâu nay bạn ngại ngùng chưa dám nói ra?"
+  },
+  {
+    "id": "family-12",
+    "pack": "family",
+    "level": 3,
+    "question": "Ước mơ thời trẻ của bố/mẹ bị gác lại vì con cái mà bạn mong ước có thể bù đắp lại là gì?"
+  },
+  {
+    "id": "family-13",
+    "pack": "family",
+    "level": 3,
+    "question": "Nỗi sợ lớn nhất của bạn khi nghĩ về sự chia ly hoặc thời gian bên cạnh người thân ngày một ngắn lại?"
+  },
+  {
+    "id": "family-14",
+    "pack": "family",
+    "level": 3,
+    "question": "Điều gì bạn muốn nói với người thân ngay lúc này để nếu mai này nhìn lại sẽ không thấy hối tiếc?"
+  },
+  {
+    "id": "family-15",
+    "pack": "family",
+    "level": 3,
+    "question": "Định nghĩa về một 'mái ấm gia đình hạnh phúc' đối với riêng bạn là gì?"
+  },
+
+  {
+    "id": "work-01",
+    "pack": "work",
+    "level": 1,
+    "question": "Thức uống hoặc món ăn 'cứu sinh' nào giúp bạn vượt qua cơn buồn ngủ lúc 2 giờ chiều tại văn phòng?"
+  },
+  {
+    "id": "work-02",
+    "pack": "work",
+    "level": 1,
+    "question": "Kỷ niệm bỡ ngỡ hoặc 'ngố tàu' nhất của bạn trong những ngày đầu tiên đi làm là gì?"
+  },
+  {
+    "id": "work-03",
+    "pack": "work",
+    "level": 1,
+    "question": "Nếu được phép 'đổi vị trí công việc' cho một đồng nghiệp trong công ty 1 ngày, bạn sẽ chọn ai?"
+  },
+  {
+    "id": "work-04",
+    "pack": "work",
+    "level": 1,
+    "question": "Cách bạn thường xả stress nhanh nhất sau một buổi họp căng thẳng là gì?"
+  },
+  {
+    "id": "work-05",
+    "pack": "work",
+    "level": 1,
+    "question": "Một tài lẻ hoặc sở thích cá nhân ngoài giờ làm việc mà ít đồng nghiệp nào biết về bạn?"
+  },
+  {
+    "id": "work-06",
+    "pack": "work",
+    "level": 2,
+    "question": "Điều gì ở môi trường công sở hiện tại khiến bạn cảm thấy có động lực gắn bó nhất mỗi ngày?"
+  },
+  {
+    "id": "work-07",
+    "pack": "work",
+    "level": 2,
+    "question": "Khi đối mặt với sự bất đồng ý kiến trong công việc, phong cách giải quyết thường thấy của bạn là gì?"
+  },
+  {
+    "id": "work-08",
+    "pack": "work",
+    "level": 2,
+    "question": "Một kỹ năng chuyên môn hoặc kỹ năng mềm mà bạn đang muốn trau dồi nhất trong năm nay là gì?"
+  },
+  {
+    "id": "work-09",
+    "pack": "work",
+    "level": 2,
+    "question": "Thời điểm bạn từng bị 'burnout' (kiệt sức) trong công việc, điều gì đã giúp bạn hồi phục năng lượng?"
+  },
+  {
+    "id": "work-10",
+    "pack": "work",
+    "level": 2,
+    "question": "Theo bạn, yếu tố nào quan trọng nhất để xây dựng niềm tin giữa những người làm việc chung một nhóm?"
+  },
+  {
+    "id": "work-11",
+    "pack": "work",
+    "level": 3,
+    "question": "Thành công thực sự trong sự nghiệp đối với bạn được định nghĩa bởi chức danh, thu nhập hay điều gì khác?"
+  },
+  {
+    "id": "work-12",
+    "pack": "work",
+    "level": 3,
+    "question": "Giá trị đạo đức nghề nghiệp cốt lõi nào bạn tự hứa với lòng sẽ không bao giờ đánh đổi?"
+  },
+  {
+    "id": "work-13",
+    "pack": "work",
+    "level": 3,
+    "question": "Nếu tiền bạc không còn là gánh nặng cuộc sống, công việc hoặc đam mê bạn muốn cống hiến trọn đời là gì?"
+  },
+  {
+    "id": "work-14",
+    "pack": "work",
+    "level": 3,
+    "question": "Một thất bại trong công việc từng khiến bạn sụp đổ nhưng lại là bước ngoặt giúp bạn mạnh mẽ như hôm nay?"
+  },
+  {
+    "id": "work-15",
+    "pack": "work",
+    "level": 3,
+    "question": "Sau này khi rời khỏi tổ chức này, bạn mong muốn mọi người nhớ đến bạn như một người đồng đội thế nào?"
+  }
+]
