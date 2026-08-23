@@ -7,11 +7,11 @@ import { getCustomQuestions } from '@/lib/storage';
 import { shuffleArray } from '@/lib/utils';
 
 interface UseCardDeckOptions {
-  packId: PackId;
+  packIds: PackId[];
   mode: GameMode;
 }
 
-export function useCardDeck({ packId, mode }: UseCardDeckOptions) {
+export function useCardDeck({ packIds, mode }: UseCardDeckOptions) {
   const [currentCard, setCurrentCard] = useState<Question | null>(null);
   const [historyStack, setHistoryStack] = useState<Question[]>([]);
   const [cardQueue, setCardQueue] = useState<Question[]>([]);
@@ -28,11 +28,11 @@ export function useCardDeck({ packId, mode }: UseCardDeckOptions) {
 
   // Initialize or reset deck
   const initDeck = useCallback(() => {
-    // 1. Gather default questions
-    const defaults = (defaultQuestionsData as Question[]).filter((q) => q.pack === packId);
+    // 1. Gather default questions from all selected packs
+    const defaults = (defaultQuestionsData as Question[]).filter((q) => packIds.includes(q.pack));
     
-    // 2. Gather custom questions
-    const custom = getCustomQuestions(packId);
+    // 2. Gather custom questions from all selected packs
+    const custom = packIds.flatMap((pid) => getCustomQuestions(pid));
     const combined = [...defaults, ...custom];
 
     let orderedDeck: Question[] = [];
@@ -66,7 +66,7 @@ export function useCardDeck({ packId, mode }: UseCardDeckOptions) {
     }
 
     setIsLoaded(true);
-  }, [packId, mode]);
+  }, [packIds, mode]);
 
   useEffect(() => {
     initDeck();

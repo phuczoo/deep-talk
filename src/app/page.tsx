@@ -13,7 +13,7 @@ import { Play, Sparkles, Smartphone, HeartHandshake } from 'lucide-react';
 
 export default function HomePage() {
   const router = useRouter();
-  const [selectedPack, setSelectedPack] = useState<PackId>('couple');
+  const [selectedPacks, setSelectedPacks] = useState<PackId[]>(['couple']);
   const [selectedMode, setSelectedMode] = useState<GameMode>('sequential');
   const [questionCounts, setQuestionCounts] = useState<Record<PackId, number>>({
     couple: 0,
@@ -42,9 +42,23 @@ export default function HomePage() {
     setQuestionCounts(counts);
   }, []);
 
-  const handleStartGame = () => {
-    router.push(`/play?pack=${selectedPack}&mode=${selectedMode}`);
+  const handleTogglePack = (packId: PackId) => {
+    setSelectedPacks((prev) =>
+      prev.includes(packId)
+        ? prev.filter((id) => id !== packId)
+        : [...prev, packId]
+    );
   };
+
+  const handleStartGame = () => {
+    if (selectedPacks.length === 0) return;
+    router.push(`/play?packs=${selectedPacks.join(',')}&mode=${selectedMode}`);
+  };
+
+  const totalSelectedQuestions = selectedPacks.reduce(
+    (acc, id) => acc + (questionCounts[id] || 0),
+    0
+  );
 
   return (
     <div className="flex flex-col flex-1 min-h-screen bg-zinc-50 dark:bg-zinc-950">
@@ -61,23 +75,28 @@ export default function HomePage() {
             Hôm nay bạn muốn trò chuyện cùng ai?
           </h1>
           <p className="text-xs sm:text-sm text-zinc-500 dark:text-zinc-400">
-            Chọn một chủ đề, ngồi cạnh nhau và bắt đầu chuyền tay chiếc điện thoại.
+            Chọn các chủ đề (có thể chọn nhiều), ngồi cạnh nhau và bắt đầu chuyền tay chiếc điện thoại.
           </p>
         </div>
 
         {/* 1. Select Pack */}
         <div className="space-y-2.5">
-          <label className="text-xs font-bold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
-            1. Chọn bộ chủ đề
-          </label>
+          <div className="flex items-center justify-between">
+            <label className="text-xs font-bold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+              1. Chọn bộ chủ đề (chọn nhiều)
+            </label>
+            <span className="text-[11px] font-semibold text-rose-600 dark:text-rose-400">
+              {selectedPacks.length} bộ đã chọn ({totalSelectedQuestions} câu)
+            </span>
+          </div>
           <div className="grid grid-cols-1 gap-2.5">
             {PACKS.map((pack) => (
               <PackCard
                 key={pack.id}
                 pack={pack}
-                isSelected={selectedPack === pack.id}
+                isSelected={selectedPacks.includes(pack.id)}
                 questionCount={questionCounts[pack.id] || 0}
-                onSelect={() => setSelectedPack(pack.id)}
+                onSelect={() => handleTogglePack(pack.id)}
               />
             ))}
           </div>
@@ -98,11 +117,20 @@ export default function HomePage() {
         <div className="pt-2">
           <button
             onClick={handleStartGame}
+            disabled={selectedPacks.length === 0}
             type="button"
-            className="w-full py-4 px-6 rounded-2xl bg-gradient-to-r from-rose-500 via-pink-600 to-amber-500 hover:opacity-95 text-white font-bold text-base flex items-center justify-center gap-2.5 shadow-xl shadow-rose-500/25 active:scale-[0.98] transition-all cursor-pointer"
+            className={`w-full py-4 px-6 rounded-2xl font-bold text-base flex items-center justify-center gap-2.5 shadow-xl transition-all ${
+              selectedPacks.length > 0
+                ? 'bg-gradient-to-r from-rose-500 via-pink-600 to-amber-500 hover:opacity-95 text-white shadow-rose-500/25 active:scale-[0.98] cursor-pointer'
+                : 'bg-zinc-200 dark:bg-zinc-800 text-zinc-400 dark:text-zinc-600 shadow-none cursor-not-allowed'
+            }`}
           >
-            <Play className="w-5 h-5 fill-white" />
-            <span>Bắt đầu ván chơi</span>
+            <Play className={`w-5 h-5 ${selectedPacks.length > 0 ? 'fill-white' : 'fill-zinc-400 dark:fill-zinc-600'}`} />
+            <span>
+              {selectedPacks.length > 0
+                ? `Bắt đầu ván chơi (${totalSelectedQuestions} câu)`
+                : 'Vui lòng chọn ít nhất 1 bộ chủ đề'}
+            </span>
           </button>
         </div>
 

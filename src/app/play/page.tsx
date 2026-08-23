@@ -15,13 +15,30 @@ import { togglePinQuestion, isQuestionPinned } from '@/lib/storage';
 
 function PlayScreen() {
   const searchParams = useSearchParams();
+  const rawPacks = searchParams.get('packs');
   const rawPack = searchParams.get('pack') as PackId | null;
   const rawMode = searchParams.get('mode') as GameMode | null;
 
-  const packId: PackId = (rawPack && PACKS.some((p) => p.id === rawPack)) ? rawPack : 'couple';
+  let packIds: PackId[] = [];
+  if (rawPacks) {
+    packIds = rawPacks
+      .split(',')
+      .map((p) => p.trim())
+      .filter((id): id is PackId => PACKS.some((p) => p.id === id));
+  } else if (rawPack && PACKS.some((p) => p.id === rawPack)) {
+    packIds = [rawPack];
+  }
+
+  if (packIds.length === 0) {
+    packIds = ['couple'];
+  }
+
   const mode: GameMode = rawMode === 'random' ? 'random' : 'sequential';
 
-  const packInfo = PACKS.find((p) => p.id === packId) || PACKS[0];
+  const packNames = packIds
+    .map((pid) => PACKS.find((p) => p.id === pid)?.name)
+    .filter(Boolean)
+    .join(' + ');
 
   const {
     isLoaded,
@@ -37,7 +54,7 @@ function PlayScreen() {
     prevCard,
     confirmLevel3Transition,
     restart,
-  } = useCardDeck({ packId, mode });
+  } = useCardDeck({ packIds, mode });
 
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
@@ -66,7 +83,7 @@ function PlayScreen() {
       <Header
         showBack
         backHref="/"
-        title={packInfo.name}
+        title={packNames}
         subtitle={mode === 'sequential' ? 'Chế độ: Tuần tự' : 'Chế độ: Ngẫu nhiên'}
       />
 
@@ -77,7 +94,7 @@ function PlayScreen() {
           </div>
         ) : isSessionComplete ? (
           <SessionComplete
-            packId={packId}
+            packIds={packIds}
             totalAnswered={totalAnsweredCount}
             onRestart={restart}
           />

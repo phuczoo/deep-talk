@@ -34,12 +34,14 @@ export function PackCard({
           : 'border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900/60 hover:border-zinc-300 dark:hover:border-zinc-700'
       }`}
     >
-      {/* Selection Checkmark */}
-      {isSelected && (
-        <div className="absolute top-3 right-3 text-zinc-900 dark:text-white">
-          <CheckCircle2 className="w-5 h-5 fill-zinc-900 text-white dark:fill-white dark:text-zinc-900" />
-        </div>
-      )}
+      {/* Selection Checkmark / Checkbox */}
+      <div className="absolute top-3.5 right-3.5">
+        {isSelected ? (
+          <CheckCircle2 className="w-5 h-5 fill-zinc-900 text-white dark:fill-white dark:text-zinc-900 transition-transform scale-110" />
+        ) : (
+          <div className="w-5 h-5 rounded-full border-2 border-zinc-300 dark:border-zinc-700 bg-transparent" />
+        )}
+      </div>
 
       <div className="flex items-start gap-3.5">
         <div className={`p-2.5 rounded-xl ${pack.color.bg} border ${pack.color.border} shrink-0`}>

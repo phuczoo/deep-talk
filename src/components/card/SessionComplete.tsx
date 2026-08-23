@@ -8,17 +8,20 @@ import { PackId } from '@/types';
 import { PACKS } from '@/data/packs';
 
 interface SessionCompleteProps {
-  packId: PackId;
+  packIds: PackId[];
   totalAnswered: number;
   onRestart: () => void;
 }
 
 export function SessionComplete({
-  packId,
+  packIds,
   totalAnswered,
   onRestart,
 }: SessionCompleteProps) {
-  const packInfo = PACKS.find((p) => p.id === packId) || PACKS[0];
+  const packNames = packIds
+    .map((pid) => PACKS.find((p) => p.id === pid)?.name)
+    .filter(Boolean)
+    .join(', ');
 
   useEffect(() => {
     // Fire confetti celebration
@@ -55,7 +58,7 @@ export function SessionComplete({
             <span className="font-bold text-zinc-900 dark:text-zinc-100">
               {totalAnswered} câu hỏi
             </span>{' '}
-            chủ đề <span className="font-semibold text-rose-500">{packInfo.name}</span> và có những phút giây thấu hiểu đáng nhớ.
+            chủ đề <span className="font-semibold text-rose-500">{packNames}</span> và có những phút giây thấu hiểu đáng nhớ.
           </p>
         </div>
 
