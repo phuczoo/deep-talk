@@ -89,6 +89,42 @@
     "level": 1,
     "question": "Một góc nhỏ lý tưởng trong ngôi nhà chung tương lai (ví dụ: góc đọc sách, quầy cà phê, ban công) mà bạn mơ ước sẽ ra sao?"
   },
+  {
+    "id": "couple-fun-01",
+    "pack": "couple",
+    "level": 1,
+    "question": "Nếu bị biến thành một con vật trong 24h, bạn nghĩ đối phương sẽ là con gì dựa trên nết ăn nết ngủ hàng ngày?"
+  },
+  {
+    "id": "couple-fun-02",
+    "pack": "couple",
+    "level": 1,
+    "question": "Chấm điểm độ 'vô tri' của đối phương trên thang điểm 10 và kể lại một pha xử lý cồng kềnh đáng nhớ nhất?"
+  },
+  {
+    "id": "couple-fun-03",
+    "pack": "couple",
+    "level": 1,
+    "question": "Nếu một ngày thức dậy thấy người yêu bị mất trí nhớ và nghĩ mình là idol K-pop, câu đầu tiên bạn nói để 'kéo' người ấy về thực tại là gì?"
+  },
+  {
+    "id": "couple-fun-04",
+    "pack": "couple",
+    "level": 1,
+    "question": "Xếp hạng top 3 tật xấu 'khó đỡ' nhất của người yêu mà bạn vừa cay cú vừa thấy thương?"
+  },
+  {
+    "id": "couple-fun-05",
+    "pack": "couple",
+    "level": 1,
+    "question": "Nếu có thể cấm đối phương dùng một câu cửa miệng hoặc một thói quen gây ức chế nhất, bạn sẽ cấm điều gì?"
+  },
+  {
+    "id": "couple-fun-06",
+    "pack": "couple",
+    "level": 1,
+    "question": "Nếu được quyền bấm nút 'tắt tiếng' người yêu trong 15 phút mỗi ngày, bạn sẽ chọn dùng nó vào lúc nào?"
+  },
 
   {
     "id": "couple-16",
@@ -209,6 +245,42 @@
     "pack": "couple",
     "level": 2,
     "question": "Khi hai người có quan điểm hoàn toàn trái ngược về một việc quan trọng, bạn thường chọn nhượng bộ ngậm ngùi, kiên nhẫn tìm điểm chung, hay bảo vệ ý kiến đến cùng?"
+  },
+  {
+    "id": "couple-fun-07",
+    "pack": "couple",
+    "level": 2,
+    "question": "Nếu hai đứa đi lạc trong rừng và chỉ còn đúng 1 cái xúc xích, bạn sẽ nhường hết cho người yêu hay chia đôi kèm bài diễn văn về sự công bằng?"
+  },
+  {
+    "id": "couple-fun-08",
+    "pack": "couple",
+    "level": 2,
+    "question": "Chấm điểm độ ghen của đối phương từ 1 đến 10, và biểu hiện ghen 'ngầm' buồn cười nhất của người ấy là gì?"
+  },
+  {
+    "id": "couple-fun-09",
+    "pack": "couple",
+    "level": 2,
+    "question": "Khoảnh khắc nào người yêu nghĩ mình đang ngầu lòi 10 điểm nhưng trong mắt bạn chỉ thấy đáng yêu kiểu 'chú hề'?"
+  },
+  {
+    "id": "couple-hard-01",
+    "pack": "couple",
+    "level": 2,
+    "question": "Chọn 1 trong 2: Một người bạn đời kiếm ra rất nhiều tiền nhưng bận rộn 80% thời gian, hay một người luôn ở bên cạnh lắng nghe nhưng kinh tế chỉ vừa đủ sống?"
+  },
+  {
+    "id": "couple-hard-02",
+    "pack": "couple",
+    "level": 2,
+    "question": "Nếu phát hiện đối phương giấu bạn một khoản nợ cá nhân dưới 50 triệu vì sợ bạn lo lắng, bạn sẽ thông cảm tha thứ hay mất niềm tin vì sự thiếu thành thật?"
+  },
+  {
+    "id": "couple-hard-03",
+    "pack": "couple",
+    "level": 2,
+    "question": "Giữa việc đối phương có bạn thân khác giới đi chơi riêng định kỳ và việc đối phương còn giữ liên lạc xã giao với người yêu cũ, điều nào bạn TUYỆT ĐỐI không chấp nhận?"
   },
 
   {
@@ -373,6 +445,24 @@
     "level": 3,
     "question": "Có một khúc mắc, nỗi lo hay sự không thoải mái nào về đối phương/mối quan hệ mà bạn đang âm thầm né tránh chưa dám mở lời không?"
   },
+  {
+    "id": "couple-hard-04",
+    "pack": "couple",
+    "level": 3,
+    "question": "Nếu bố mẹ bạn và người yêu xảy ra mâu thuẫn gay gắt không thể hàn gắn và cả hai bên ép bạn phải chọn đứng về một phía, bạn sẽ xử lý thế nào?"
+  },
+  {
+    "id": "couple-hard-05",
+    "pack": "couple",
+    "level": 3,
+    "question": "Nếu sau 5 năm sống chung, hai đứa nhận ra không thể có con cùng nhau, bạn sẽ chọn tiếp tục đồng hành trọn đời hay dừng lại vì kỳ vọng gia đình?"
+  },
+  {
+    "id": "couple-hard-06",
+    "pack": "couple",
+    "level": 3,
+    "question": "Nếu đối phương không may gặp biến cố sức khỏe lớn cần bạn gác lại sự nghiệp để chăm sóc trong nhiều năm, bạn có dám thật lòng cam kết mà không oán trách không?"
+  },
 
   {
     "id": "friends-01",
@@ -421,6 +511,42 @@
     "pack": "friends",
     "level": 1,
     "question": "Thói quen 'lạ đời' nhưng đáng yêu nào của bạn bè trong nhóm khiến bạn thấy quen thuộc nhất?"
+  },
+  {
+    "id": "friends-fun-01",
+    "pack": "friends",
+    "level": 1,
+    "question": "Chấm điểm độ 'báo' của từng đứa trong nhóm trên thang điểm 10 và bầu ra đứa xứng đáng làm 'trùm báo'?"
+  },
+  {
+    "id": "friends-fun-02",
+    "pack": "friends",
+    "level": 1,
+    "question": "Nếu cả nhóm tham gia gameshow sinh tồn, ai sẽ là đứa bán đứng đồng đội đầu tiên để giật giải thưởng?"
+  },
+  {
+    "id": "friends-fun-03",
+    "pack": "friends",
+    "level": 1,
+    "question": "Đặt cho đứa ngồi đối diện bạn một cái biệt danh mới chuẩn xác nhất với tính cách 'bất ổn' của nó?"
+  },
+  {
+    "id": "friends-fun-04",
+    "pack": "friends",
+    "level": 1,
+    "question": "Kể lại một pha 'quê xệ' nhớ đời của một đứa trong nhóm mà mỗi lần nhắc lại cả bọn vẫn cười ngất?"
+  },
+  {
+    "id": "friends-fun-05",
+    "pack": "friends",
+    "level": 1,
+    "question": "Nếu bị bắt cóc và tiền chuộc là 500k, bạn nghĩ đứa nào trong nhóm sẽ mặc cả xin giảm giá xuống 200k?"
+  },
+  {
+    "id": "friends-fun-06",
+    "pack": "friends",
+    "level": 1,
+    "question": "Xếp hạng khả năng thoát ế của các thành viên trong nhóm từ cao nhất đến 'vô phương cứu chữa'?"
   },
 
   {
@@ -501,6 +627,42 @@
     "level": 2,
     "question": "Nếu cảm thấy mối quan hệ với một người bạn đang dần xa cách và nhạt nhòa, phản ứng thực tế của bạn là chủ động níu giữ hay để mọi thứ tự trôi đi theo thời gian?"
   },
+  {
+    "id": "friends-fun-07",
+    "pack": "friends",
+    "level": 2,
+    "question": "Nếu đứa bạn thân dẫn người yêu mới về ra mắt mà bạn nhìn thấy 'red flag' bay phấp phới, bạn sẽ cảnh báo ngay hay ngồi chờ 'kịch hay'?"
+  },
+  {
+    "id": "friends-fun-08",
+    "pack": "friends",
+    "level": 2,
+    "question": "Kèo nào của nhóm bạn luôn chốt 'Ok tao tới liền' nhưng thực tế là vừa mới mở mắt dậy và chưa bước xuống giường?"
+  },
+  {
+    "id": "friends-fun-09",
+    "pack": "friends",
+    "level": 2,
+    "question": "Bí mật ngớ ngẩn nào của đứa bạn thân mà bạn hứa sống để bụng chết mang theo nhưng suýt nữa lỡ mồm buôn với người khác?"
+  },
+  {
+    "id": "friends-hard-01",
+    "pack": "friends",
+    "level": 2,
+    "question": "Nếu bạn phát hiện người yêu của bạn thân đang 'bắt cá hai tay', bạn sẽ nói thẳng với bạn mình ngay lập tức hay im lặng để họ tự nhận ra?"
+  },
+  {
+    "id": "friends-hard-02",
+    "pack": "friends",
+    "level": 2,
+    "question": "Chọn 1 trong 2: Cho bạn thân vay một khoản tiền lớn dù biết có nguy cơ mất tiền lẫn mất bạn, hay thẳng thừng từ chối và chịu mang tiếng ích kỷ?"
+  },
+  {
+    "id": "friends-hard-03",
+    "pack": "friends",
+    "level": 2,
+    "question": "Nếu bạn và bạn thân cùng cạnh tranh trực tiếp cho một vị trí công việc mơ ước duy nhất, bạn có cạnh tranh hết mình bằng mọi giá không?"
+  },
 
   {
     "id": "friends-17",
@@ -562,6 +724,24 @@
     "level": 3,
     "question": "Có một cuộc trò chuyện thẳng thắn, một thắc mắc hoặc một lời xin lỗi với một người bạn nào đó mà bạn đã né tránh rất lâu và đến giờ vẫn chưa nói ra không?"
   },
+  {
+    "id": "friends-hard-04",
+    "pack": "friends",
+    "level": 3,
+    "question": "Nếu một người bạn thân chí cốt làm điều vi phạm đạo đức nghiêm trọng hoặc phạm pháp, bạn sẽ bao che bảo vệ bạn mình hay khuyên họ ra chịu trách nhiệm?"
+  },
+  {
+    "id": "friends-hard-05",
+    "pack": "friends",
+    "level": 3,
+    "question": "Khi thấy bạn thân thành công và giàu có vượt bậc trong khi bản thân đang dậm chân tại chỗ, cảm xúc thật nhất trong lòng bạn là ghen tị ngầm hay vui mừng trọn vẹn?"
+  },
+  {
+    "id": "friends-hard-06",
+    "pack": "friends",
+    "level": 3,
+    "question": "Ranh giới nào nếu bị vượt qua sẽ khiến bạn dứt khoát chấm dứt một tình bạn 10 năm mà không bao giờ cho cơ hội hàn gắn?"
+  },
 
   {
     "id": "family-01",
@@ -610,6 +790,42 @@
     "pack": "family",
     "level": 1,
     "question": "Một bài hát, bộ phim hoặc chương trình truyền hình gắn liền với ký ức tuổi thơ sum vầy của cả nhà?"
+  },
+  {
+    "id": "family-fun-01",
+    "pack": "family",
+    "level": 1,
+    "question": "Ai trong nhà có thói quen lướt video với âm lượng loa ngoài 100% gây ức chế nhất?"
+  },
+  {
+    "id": "family-fun-02",
+    "pack": "family",
+    "level": 1,
+    "question": "Nếu trao giải 'Oscar gia đình', ai sẽ giật cúp 'Gương mặt drama nhất' và ai là 'Chuyên gia càm ràm nhất'?"
+  },
+  {
+    "id": "family-fun-03",
+    "pack": "family",
+    "level": 1,
+    "question": "Chiêu 'văn mẫu' quen thuộc nhất của bố mẹ mỗi khi giục con cái dọn nhà hoặc lấy vợ/gả chồng là gì?"
+  },
+  {
+    "id": "family-fun-04",
+    "pack": "family",
+    "level": 1,
+    "question": "Món ăn nào của một thành viên trong nhà nấu mà cả nhà luôn phải 'bấm bụng' khen ngon để giữ gìn hòa khí?"
+  },
+  {
+    "id": "family-fun-05",
+    "pack": "family",
+    "level": 1,
+    "question": "Thói quen tiết kiệm kỳ lạ nào của người lớn trong nhà (giữ 100 túi nilon, hộp bánh đựng kim chỉ) làm bạn vừa cười vừa bất lực?"
+  },
+  {
+    "id": "family-fun-06",
+    "pack": "family",
+    "level": 1,
+    "question": "Nếu trong nhà có camera giấu kín 24/7, khoảnh khắc ngố tàu nào của bạn sẽ bị phát sóng đầu tiên?"
   },
 
   {
@@ -690,6 +906,42 @@
     "level": 2,
     "question": "Khi có sự bất đồng lớn về quan điểm sống giữa bạn và gia đình, bạn chọn cách 'vâng dạ cho qua chuyện' hay kiên trì đối thoại để bảo vệ chính kiến?"
   },
+  {
+    "id": "family-fun-07",
+    "pack": "family",
+    "level": 2,
+    "question": "Mỗi dịp Tết đến, câu hỏi 'hỏi thăm' nào từ họ hàng khiến bạn muốn 'bốc hơi' khỏi mâm cỗ nhất?"
+  },
+  {
+    "id": "family-fun-08",
+    "pack": "family",
+    "level": 2,
+    "question": "Chiêu bài 'trốn việc nhà' đỉnh cao nhất thời thơ ấu mà bạn từng áp dụng trót lọt với bố mẹ là gì?"
+  },
+  {
+    "id": "family-fun-09",
+    "pack": "family",
+    "level": 2,
+    "question": "Bí mật 'phá đồ' hoặc 'làm mất đồ' trong nhà hồi nhỏ mà đến tận bây giờ bạn vẫn đổ tội cho anh/chị/em hoặc... con mèo?"
+  },
+  {
+    "id": "family-hard-01",
+    "pack": "family",
+    "level": 2,
+    "question": "Chọn 1 trong 2: Sống cuộc đời theo đúng kỳ vọng của bố mẹ để họ luôn tự hào, hay sống theo đam mê cá nhân dù khiến bố mẹ thất vọng và lo lắng?"
+  },
+  {
+    "id": "family-hard-02",
+    "pack": "family",
+    "level": 2,
+    "question": "Nếu người thân trong gia đình liên tục vay mượn tiền bạc và ỷ lại vào bạn, bạn sẽ tiếp tục gánh vác vì chữ hiếu hay dứt khoát cắt đứt tài chính?"
+  },
+  {
+    "id": "family-hard-03",
+    "pack": "family",
+    "level": 2,
+    "question": "Khi phát hiện người lớn trong nhà có định kiến sai lệch hoặc phân biệt đối xử bất công giữa con cháu, bạn sẽ lên tiếng phản đối hay im lặng vì chữ hiếu?"
+  },
 
   {
     "id": "family-17",
@@ -751,6 +1003,24 @@
     "level": 3,
     "question": "Có một chuyện gia đình hoặc khúc mắc trong nhà mà bạn đã né tránh đối diện suốt thời gian dài vì sợ làm tổn thương nhau không?"
   },
+  {
+    "id": "family-hard-04",
+    "pack": "family",
+    "level": 3,
+    "question": "Nếu phải chọn giữa việc ở gần chăm sóc phụng dưỡng bố mẹ lúc tuổi già và việc đi xa phát triển sự nghiệp đỉnh cao, bạn sẽ chọn điều gì?"
+  },
+  {
+    "id": "family-hard-05",
+    "pack": "family",
+    "level": 3,
+    "question": "Có tư tưởng hay thói quen độc hại nào của gia đình mà bạn thề sẽ chấm dứt ở thế hệ của bạn và không bao giờ áp đặt lên con cái?"
+  },
+  {
+    "id": "family-hard-06",
+    "pack": "family",
+    "level": 3,
+    "question": "Nếu một người thân từng gây ra tổn thương tâm lý rất lớn cho bạn thời thơ ấu, bạn có thể thật lòng tha thứ khi họ già đi không?"
+  },
 
   {
     "id": "work-01",
@@ -799,6 +1069,42 @@
     "pack": "work",
     "level": 1,
     "question": "Câu nói hài hước hoặc tiếng lóng quen thuộc nào của team mình khiến bạn thấy vui vẻ khi nghe?"
+  },
+  {
+    "id": "work-fun-01",
+    "pack": "work",
+    "level": 1,
+    "question": "Ai trong văn phòng xứng đáng nhận cúp 'Chiến thần order trà sữa' và ai là 'Thánh chuồn đúng 5h30'?"
+  },
+  {
+    "id": "work-fun-02",
+    "pack": "work",
+    "level": 1,
+    "question": "Nếu được quyền đổi luật công ty, bạn muốn 'Cấm họp trước 10h sáng' hay 'Cho phép ngủ trưa 2 tiếng'?"
+  },
+  {
+    "id": "work-fun-03",
+    "pack": "work",
+    "level": 1,
+    "question": "Biểu cảm gương mặt 'đang tập trung suy nghĩ sâu sắc' khi sếp đi ngang qua bàn làm việc của bạn trông như thế nào?"
+  },
+  {
+    "id": "work-fun-04",
+    "pack": "work",
+    "level": 1,
+    "question": "Tin nhắn nào trong công việc khiến bạn 'rùng mình' tụt huyết áp nhất (ví dụ: 'Alo em ơi', 'Sếp tìm em kìa')?"
+  },
+  {
+    "id": "work-fun-05",
+    "pack": "work",
+    "level": 1,
+    "question": "Nếu công ty trao giải 'Diễn viên xuất sắc nhất khi trả lời khách hàng/sếp', ai sẽ ẵm cúp vàng?"
+  },
+  {
+    "id": "work-fun-06",
+    "pack": "work",
+    "level": 1,
+    "question": "Thói quen 'tâm linh' hoặc 'cầu may' hài hước nào trước mỗi giờ họp báo cáo quan trọng mà bạn hay làm?"
   },
 
   {
@@ -879,6 +1185,42 @@
     "level": 2,
     "question": "Khi team gặp sự cố và không khí làm việc căng thẳng đổ lỗi cho nhau, bạn thường làm gì cụ thể để kéo sự tập trung của mọi người về việc giải quyết vấn đề?"
   },
+  {
+    "id": "work-fun-07",
+    "pack": "work",
+    "level": 2,
+    "question": "Khoảnh khắc nào bạn lỡ 'bật mic/share nhầm màn hình' trong cuộc họp online khiến cả team được một phen cười nghiêng ngả?"
+  },
+  {
+    "id": "work-fun-08",
+    "pack": "work",
+    "level": 2,
+    "question": "Bạn đã bao giờ soạn sẵn đơn xin nghỉ việc trong máy tính chưa, và điều gì đã giữ chân bạn ở lại làm việc tiếp?"
+  },
+  {
+    "id": "work-fun-09",
+    "pack": "work",
+    "level": 2,
+    "question": "Bí kíp 'né deadline' hoặc 'xin khất task' nghe hợp lý và thuyết phục nhất mà bạn từng áp dụng là gì?"
+  },
+  {
+    "id": "work-hard-01",
+    "pack": "work",
+    "level": 2,
+    "question": "Chọn 1 trong 2: Mức lương cao gấp đôi nhưng làm việc dưới trướng một người sếp độc hại thao túng, hay mức lương vừa đủ nhưng môi trường đồng đội cực kỳ gắn kết thấu hiểu?"
+  },
+  {
+    "id": "work-hard-02",
+    "pack": "work",
+    "level": 2,
+    "question": "Nếu bạn phát hiện đồng nghiệp thân thiết đang 'nhận vơ' công sức của người khác để được thăng tiến, bạn có lên tiếng vạch trần không?"
+  },
+  {
+    "id": "work-hard-03",
+    "pack": "work",
+    "level": 2,
+    "question": "Khi dự án thất bại do lỗi của cả team, bạn sẽ cùng chịu trách nhiệm tập thể hay chủ động chỉ rõ phần việc mình đã làm tốt để tự bảo vệ mình?"
+  },
 
   {
     "id": "work-17",
@@ -939,5 +1281,23 @@
     "pack": "work",
     "level": 3,
     "question": "Có một đầu việc khó nhằn, một email hoặc một cuộc đối thoại khó khăn với đồng nghiệp/sếp mà bạn đã né tránh trì hoãn suốt thời gian gần đây không?"
+  },
+  {
+    "id": "work-hard-04",
+    "pack": "work",
+    "level": 3,
+    "question": "Nếu công ty yêu cầu bạn làm một việc vi phạm đạo đức nghề nghiệp hoặc lừa dối khách hàng để bảo vệ doanh thu, bạn có dám từ chối và chấp nhận bị cho nghỉ việc không?"
+  },
+  {
+    "id": "work-hard-05",
+    "pack": "work",
+    "level": 3,
+    "question": "Khi được thăng chức lên làm sếp của những người từng là đồng nghiệp ngang hàng, bạn sẽ chọn làm lãnh đạo quyết đoán kỷ luật hay tiếp tục giữ vai trò bạn bè nể nang?"
+  },
+  {
+    "id": "work-hard-06",
+    "pack": "work",
+    "level": 3,
+    "question": "Giữa việc trở thành nhân sự xuất sắc không thể thay thế nhưng đánh đổi sức khỏe/đời tư, và việc làm nhân viên bình thường tròn vai có cuộc sống thảnh thơi, đâu là ưu tiên thực sự của bạn?"
   }
 ]
