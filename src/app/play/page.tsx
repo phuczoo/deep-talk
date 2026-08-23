@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, Suspense } from 'react';
+import React, { useState, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { Header } from '@/components/ui/Header';
 import { QuestionCard } from '@/components/card/QuestionCard';
@@ -19,26 +19,29 @@ function PlayScreen() {
   const rawPack = searchParams.get('pack') as PackId | null;
   const rawMode = searchParams.get('mode') as GameMode | null;
 
-  let packIds: PackId[] = [];
-  if (rawPacks) {
-    packIds = rawPacks
-      .split(',')
-      .map((p) => p.trim())
-      .filter((id): id is PackId => PACKS.some((p) => p.id === id));
-  } else if (rawPack && PACKS.some((p) => p.id === rawPack)) {
-    packIds = [rawPack];
-  }
-
-  if (packIds.length === 0) {
-    packIds = ['couple'];
-  }
+  const packIds: PackId[] = useMemo(() => {
+    let ids: PackId[] = [];
+    if (rawPacks) {
+      ids = rawPacks
+        .split(',')
+        .map((p) => p.trim())
+        .filter((id): id is PackId => PACKS.some((p) => p.id === id));
+    } else if (rawPack && PACKS.some((p) => p.id === rawPack)) {
+      ids = [rawPack];
+    }
+    return ids.length > 0 ? ids : ['couple'];
+  }, [rawPacks, rawPack]);
 
   const mode: GameMode = rawMode === 'random' ? 'random' : 'sequential';
 
-  const packNames = packIds
-    .map((pid) => PACKS.find((p) => p.id === pid)?.name)
-    .filter(Boolean)
-    .join(' + ');
+  const packNames = useMemo(
+    () =>
+      packIds
+        .map((pid) => PACKS.find((p) => p.id === pid)?.name)
+        .filter(Boolean)
+        .join(' + '),
+    [packIds]
+  );
 
   const {
     isLoaded,

@@ -12,6 +12,8 @@ interface UseCardDeckOptions {
 }
 
 export function useCardDeck({ packIds, mode }: UseCardDeckOptions) {
+  const packKey = packIds.slice().sort().join(',');
+
   const [currentCard, setCurrentCard] = useState<Question | null>(null);
   const [historyStack, setHistoryStack] = useState<Question[]>([]);
   const [cardQueue, setCardQueue] = useState<Question[]>([]);
@@ -28,11 +30,13 @@ export function useCardDeck({ packIds, mode }: UseCardDeckOptions) {
 
   // Initialize or reset deck
   const initDeck = useCallback(() => {
+    const activePacks = (packKey ? packKey.split(',') : []) as PackId[];
+
     // 1. Gather default questions from all selected packs
-    const defaults = (defaultQuestionsData as Question[]).filter((q) => packIds.includes(q.pack));
+    const defaults = (defaultQuestionsData as Question[]).filter((q) => activePacks.includes(q.pack));
     
     // 2. Gather custom questions from all selected packs
-    const custom = packIds.flatMap((pid) => getCustomQuestions(pid));
+    const custom = activePacks.flatMap((pid) => getCustomQuestions(pid));
     const combined = [...defaults, ...custom];
 
     let orderedDeck: Question[] = [];
@@ -66,7 +70,7 @@ export function useCardDeck({ packIds, mode }: UseCardDeckOptions) {
     }
 
     setIsLoaded(true);
-  }, [packIds, mode]);
+  }, [packKey, mode]);
 
   useEffect(() => {
     initDeck();
