@@ -4,6 +4,7 @@ import React from 'react';
 import { Question } from '@/types';
 import { PACKS, LEVEL_INFO } from '@/data/packs';
 import { Sparkles, UserCheck, Flame, Heart } from 'lucide-react';
+import { DareTimer } from './DareTimer';
 
 interface QuestionCardProps {
   question: Question;
@@ -92,11 +93,14 @@ export function QuestionCard({
         </div>
       </div>
 
-      {/* Center Question Text */}
-      <div className="relative z-10 my-auto py-4">
-        <h2 className="text-xl sm:text-2xl font-bold leading-relaxed tracking-tight text-zinc-900 dark:text-zinc-50 text-balance text-left sm:text-center">
+      {/* Center Question Text & Dare Timer */}
+      <div className="relative z-10 my-auto py-2 flex flex-col justify-center">
+        <h2 className="text-lg sm:text-2xl font-bold leading-relaxed tracking-tight text-zinc-900 dark:text-zinc-50 text-balance text-left sm:text-center">
           &ldquo;{question.question}&rdquo;
         </h2>
+
+        {/* Interactive Dare Countdown Timer */}
+        {isDare && <DareTimer questionText={question.question} />}
       </div>
 
       {/* Bottom Hint */}
