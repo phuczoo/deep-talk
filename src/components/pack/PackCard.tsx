@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { PackInfo } from '@/types';
-import { HeartHandshake, Users, Home, Briefcase, CheckCircle2 } from 'lucide-react';
+import { HeartHandshake, Users, Flame, Wine, CheckCircle2 } from 'lucide-react';
 
 interface PackCardProps {
   pack: PackInfo;
@@ -19,9 +19,9 @@ export function PackCard({
 }: PackCardProps) {
   const icons: Record<string, React.ReactNode> = {
     HeartHandshake: <HeartHandshake className="w-5 h-5 text-rose-500" />,
+    Flame: <Flame className="w-5 h-5 text-red-500" />,
     Users: <Users className="w-5 h-5 text-amber-500" />,
-    Home: <Home className="w-5 h-5 text-emerald-500" />,
-    Briefcase: <Briefcase className="w-5 h-5 text-indigo-500" />,
+    Wine: <Wine className="w-5 h-5 text-purple-500" />,
   };
 
   return (

@@ -98,7 +98,7 @@ export default async function Image() {
             lineHeight: 1.4,
           }}
         >
-          Bộ câu hỏi trò chuyện chuyền tay — Người Yêu, Bạn Bè, Gia Đình, Đồng Nghiệp
+          Bộ câu hỏi trò chuyện chuyền tay — Người Yêu, Bạn Bè & 18+ Táo Bạo
         </div>
 
         {/* 4 Badges */}
@@ -110,9 +110,9 @@ export default async function Image() {
           }}
         >
           <div style={{ padding: '8px 20px', borderRadius: '12px', background: 'rgba(244, 63, 94, 0.15)', border: '1px solid rgba(244, 63, 94, 0.3)', color: '#fda4af', fontSize: '18px', fontWeight: 600 }}>❤️ Người Yêu</div>
+          <div style={{ padding: '8px 20px', borderRadius: '12px', background: 'rgba(239, 68, 68, 0.15)', border: '1px solid rgba(239, 68, 68, 0.3)', color: '#fca5a5', fontSize: '18px', fontWeight: 600 }}>🔥 Người Yêu 18+</div>
           <div style={{ padding: '8px 20px', borderRadius: '12px', background: 'rgba(245, 158, 11, 0.15)', border: '1px solid rgba(245, 158, 11, 0.3)', color: '#fcd34d', fontSize: '18px', fontWeight: 600 }}>🍻 Bạn Bè</div>
-          <div style={{ padding: '8px 20px', borderRadius: '12px', background: 'rgba(16, 185, 129, 0.15)', border: '1px solid rgba(16, 185, 129, 0.3)', color: '#6ee7b7', fontSize: '18px', fontWeight: 600 }}>🏡 Gia Đình</div>
-          <div style={{ padding: '8px 20px', borderRadius: '12px', background: 'rgba(99, 102, 241, 0.15)', border: '1px solid rgba(99, 102, 241, 0.3)', color: '#a5b4fc', fontSize: '18px', fontWeight: 600 }}>💼 Đồng Nghiệp</div>
+          <div style={{ padding: '8px 20px', borderRadius: '12px', background: 'rgba(168, 85, 247, 0.15)', border: '1px solid rgba(168, 85, 247, 0.3)', color: '#d8b4fe', fontSize: '18px', fontWeight: 600 }}>🔞 Bạn Bè 18+</div>
         </div>
       </div>
     ),

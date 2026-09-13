@@ -1,4 +1,4 @@
-export type PackId = 'couple' | 'friends' | 'family' | 'work';
+export type PackId = 'couple' | 'couple_spicy' | 'friends' | 'friends_spicy';
 
 export type GameMode = 'sequential' | 'random';
 

@@ -72,24 +72,6 @@
     "question": "Nếu tụi mình cùng nuôi một chú thú cưng hoặc trồng cây ban công, bạn muốn nuôi con gì hoặc trồng cây gì?"
   },
   {
-    "id": "couple-13",
-    "pack": "couple",
-    "level": 1,
-    "question": "Điểm tương đồng thú vị nào trong nếp sống gia đình của bạn và gia đình của mình mà bạn từng để ý thấy?"
-  },
-  {
-    "id": "couple-14",
-    "pack": "couple",
-    "level": 1,
-    "question": "Khi có bất đồng nhỏ (như ăn gì, đi chơi đâu), tụi mình thường thống nhất theo cách nào làm bạn thấy vui vẻ nhất?"
-  },
-  {
-    "id": "couple-15",
-    "pack": "couple",
-    "level": 1,
-    "question": "Một góc nhỏ lý tưởng trong ngôi nhà chung tương lai (ví dụ: góc đọc sách, quầy cà phê, ban công) mà bạn mơ ước sẽ ra sao?"
-  },
-  {
     "id": "couple-fun-01",
     "pack": "couple",
     "level": 1,
@@ -102,22 +84,10 @@
     "question": "Chấm điểm độ 'vô tri' của đối phương trên thang điểm 10 và kể lại một pha xử lý cồng kềnh đáng nhớ nhất?"
   },
   {
-    "id": "couple-fun-03",
-    "pack": "couple",
-    "level": 1,
-    "question": "Nếu một ngày thức dậy thấy người yêu bị mất trí nhớ và nghĩ mình là idol K-pop, câu đầu tiên bạn nói để 'kéo' người ấy về thực tại là gì?"
-  },
-  {
     "id": "couple-fun-04",
     "pack": "couple",
     "level": 1,
     "question": "Xếp hạng top 3 tật xấu 'khó đỡ' nhất của người yêu mà bạn vừa cay cú vừa thấy thương?"
-  },
-  {
-    "id": "couple-fun-05",
-    "pack": "couple",
-    "level": 1,
-    "question": "Nếu có thể cấm đối phương dùng một câu cửa miệng hoặc một thói quen gây ức chế nhất, bạn sẽ cấm điều gì?"
   },
   {
     "id": "couple-fun-06",
@@ -145,12 +115,6 @@
     "question": "Bạn muốn tụi mình phân chia việc dọn dẹp và duy trì không gian sống thế nào để cả hai không ai cảm thấy bị quá tải?"
   },
   {
-    "id": "couple-19",
-    "pack": "couple",
-    "level": 2,
-    "question": "Tần suất và cách thức tụi mình về thăm hoặc tham gia các dịp lễ tết ở gia đình hai bên như thế nào là hợp lý và thoải mái với bạn?"
-  },
-  {
     "id": "couple-20",
     "pack": "couple",
     "level": 2,
@@ -175,22 +139,10 @@
     "question": "Làm thế nào để tụi mình duy trì sự lãng mạn và những buổi hẹn hò riêng ngay cả khi đã quen với sự hiện diện hàng ngày của nhau?"
   },
   {
-    "id": "couple-24",
-    "pack": "couple",
-    "level": 2,
-    "question": "Bạn kỳ vọng đối phương sẽ ứng xử thế nào nếu có sự bất đồng ý kiến hoặc quan điểm giữa bạn và bố mẹ người ấy?"
-  },
-  {
     "id": "couple-25",
     "pack": "couple",
     "level": 2,
     "question": "Kế hoạch và quan điểm của bạn về việc có con, thời điểm thích hợp và cách phân chia vai trò nuôi dạy con trong tương lai?"
-  },
-  {
-    "id": "couple-26",
-    "pack": "couple",
-    "level": 2,
-    "question": "Một thói quen sinh hoạt của mình mà bạn đã cố gắng thích nghi, và bạn có mong muốn tụi mình cùng nhau điều chỉnh lại không?"
   },
   {
     "id": "couple-27",
@@ -223,46 +175,10 @@
     "question": "Khi bực tức hoặc bị tổn thương bởi người yêu, phản ứng đầu tiên trong thực tế của bạn là: im lặng rút lui, muốn làm cho ra lẽ ngay lập tức, hay giả vờ như không có gì?"
   },
   {
-    "id": "couple-d2",
-    "pack": "couple",
-    "level": 2,
-    "question": "Lần gần nhất hai đứa bất đồng quan điểm, bạn đã làm gì cụ thể để cơn giận không biến thành lời nói xúc phạm hoặc làm tổn thương nhau?"
-  },
-  {
-    "id": "couple-d3",
-    "pack": "couple",
-    "level": 2,
-    "question": "Khi cuộc sống riêng của bạn gặp khó khăn (áp lực công việc, tiền bạc), bạn thường có xu hướng trút bực dọc lên người yêu hay tự cô lập mình?"
-  },
-  {
     "id": "couple-d4",
     "pack": "couple",
     "level": 2,
     "question": "Nếu bạn nhận ra mình đã sai trong một cuộc tranh luận, bạn thường mất bao lâu để vượt qua cái tôi và chủ động nói lời xin lỗi?"
-  },
-  {
-    "id": "couple-d5",
-    "pack": "couple",
-    "level": 2,
-    "question": "Khi hai người có quan điểm hoàn toàn trái ngược về một việc quan trọng, bạn thường chọn nhượng bộ ngậm ngùi, kiên nhẫn tìm điểm chung, hay bảo vệ ý kiến đến cùng?"
-  },
-  {
-    "id": "couple-fun-07",
-    "pack": "couple",
-    "level": 2,
-    "question": "Nếu hai đứa đi lạc trong rừng và chỉ còn đúng 1 cái xúc xích, bạn sẽ nhường hết cho người yêu hay chia đôi kèm bài diễn văn về sự công bằng?"
-  },
-  {
-    "id": "couple-fun-08",
-    "pack": "couple",
-    "level": 2,
-    "question": "Chấm điểm độ ghen của đối phương từ 1 đến 10, và biểu hiện ghen 'ngầm' buồn cười nhất của người ấy là gì?"
-  },
-  {
-    "id": "couple-fun-09",
-    "pack": "couple",
-    "level": 2,
-    "question": "Khoảnh khắc nào người yêu nghĩ mình đang ngầu lòi 10 điểm nhưng trong mắt bạn chỉ thấy đáng yêu kiểu 'chú hề'?"
   },
   {
     "id": "couple-hard-01",
@@ -275,12 +191,6 @@
     "pack": "couple",
     "level": 2,
     "question": "Nếu phát hiện đối phương giấu bạn một khoản nợ cá nhân dưới 50 triệu vì sợ bạn lo lắng, bạn sẽ thông cảm tha thứ hay mất niềm tin vì sự thiếu thành thật?"
-  },
-  {
-    "id": "couple-hard-03",
-    "pack": "couple",
-    "level": 2,
-    "question": "Giữa việc đối phương có bạn thân khác giới đi chơi riêng định kỳ và việc đối phương còn giữ liên lạc xã giao với người yêu cũ, điều nào bạn TUYỆT ĐỐI không chấp nhận?"
   },
 
   {
@@ -302,12 +212,6 @@
     "question": "Giá trị sống hoặc nguyên tắc đạo đức nào bạn coi là 'ranh giới đỏ không thể thỏa hiệp' trong đời sống hôn nhân?"
   },
   {
-    "id": "couple-34",
-    "pack": "couple",
-    "level": 3,
-    "question": "Nếu gia đình một bên có kỳ vọng hoặc can thiệp sâu vào đời sống riêng của hai đứa, chúng ta sẽ cùng nhau bảo vệ tổ ấm thế nào?"
-  },
-  {
     "id": "couple-35",
     "pack": "couple",
     "level": 3,
@@ -318,12 +222,6 @@
     "pack": "couple",
     "level": 3,
     "question": "Điều gì ở bản thân bạn (tính cách, nỗi sợ quá khứ) mà bạn thấy khó mở lòng nhất nhưng vẫn mong mình sẽ kiên nhẫn thấu hiểu?"
-  },
-  {
-    "id": "couple-37",
-    "pack": "couple",
-    "level": 3,
-    "question": "Khi xảy ra xung đột mà cả hai đều có lý lẽ riêng và không ai muốn nhượng bộ, nguyên tắc nào sẽ giúp tụi mình không làm sứt mẻ tình cảm?"
   },
   {
     "id": "couple-38",
@@ -356,100 +254,10 @@
     "question": "Nếu có một điều ước cho cuộc sống của hai đứa khi về già (60-70 tuổi), bạn ước tụi mình sẽ ở bên nhau như thế nào?"
   },
   {
-    "id": "couple-43",
-    "pack": "couple",
-    "level": 3,
-    "question": "Có trách nhiệm hay gánh nặng tâm lý nào bạn đang âm thầm mang mà bạn muốn chia sẻ để mình cùng gánh vác không?"
-  },
-  {
-    "id": "couple-44",
-    "pack": "couple",
-    "level": 3,
-    "question": "Cách bạn muốn tụi mình cân bằng giữa việc vun vén gia đình chung và việc tiếp tục theo đuổi đam mê, sự nghiệp riêng của mỗi người?"
-  },
-  {
     "id": "couple-45",
     "pack": "couple",
     "level": 3,
     "question": "Lời hứa chân thành nhất từ đáy lòng mà bạn muốn gửi gắm đến mình trong khoảnh khắc này là gì?"
-  },
-  {
-    "id": "couple-46",
-    "pack": "couple",
-    "level": 3,
-    "question": "Mức độ thoải mái của bạn khi chủ động thể hiện mong muốn gần gũi với đối phương là như thế nào?"
-  },
-  {
-    "id": "couple-47",
-    "pack": "couple",
-    "level": 3,
-    "question": "Có điều gì trong sự gần gũi và chuyện chăn gối mà bạn từng muốn thử cùng nhau nhưng còn ngại ngùng chưa dám mở lời?"
-  },
-  {
-    "id": "couple-48",
-    "pack": "couple",
-    "level": 3,
-    "question": "Không gian, thời điểm hoặc sự kết nối cảm xúc thế nào thường khiến bạn cảm thấy dễ rung động và muốn gần gũi nhất?"
-  },
-  {
-    "id": "couple-49",
-    "pack": "couple",
-    "level": 3,
-    "question": "Khi một trong hai người cảm thấy mệt mỏi hoặc chưa sẵn sàng cho chuyện thân mật, bạn mong muốn tụi mình từ chối và vỗ về nhau ra sao để không ai bị hụt hẫng?"
-  },
-  {
-    "id": "couple-50",
-    "pack": "couple",
-    "level": 3,
-    "question": "Cảm giác an toàn và sự gắn kết về mặt tâm lý ảnh hưởng như thế nào đến mức độ thăng hoa trong đời sống gần gũi của bạn?"
-  },
-  {
-    "id": "couple-51",
-    "pack": "couple",
-    "level": 3,
-    "question": "Sau những phút giây gần gũi, hành động hoặc lời nói nào của đối phương (ôm ấp, tâm sự nhẹ nhàng) khiến bạn cảm thấy được yêu thương trọn vẹn nhất?"
-  },
-  {
-    "id": "couple-52",
-    "pack": "couple",
-    "level": 3,
-    "question": "Có sự tự ti hay lo lắng nào về cơ thể/ngoại hình khi ở cạnh nhau mà bạn mong muốn nhận được sự khích lệ và thấu hiểu từ mình?"
-  },
-  {
-    "id": "couple-53",
-    "pack": "couple",
-    "level": 3,
-    "question": "Bạn cảm thấy tụi mình có thể thoải mái góp ý hoặc chia sẻ cảm nhận sau những lần gần gũi mà không sợ đối phương tự ái hay không?"
-  },
-  {
-    "id": "couple-54",
-    "pack": "couple",
-    "level": 3,
-    "question": "Đối với bạn, một đời sống thân mật hòa hợp đóng vai trò quan trọng thế nào trong việc giữ lửa hôn nhân và đời sống chung lâu dài?"
-  },
-  {
-    "id": "couple-55",
-    "pack": "couple",
-    "level": 3,
-    "question": "Cử chỉ hay sự tiếp xúc thân mật nào trong đời sống hàng ngày (ngoài chuyện chăn gối) khiến bạn cảm thấy đối phương vẫn luôn bị bạn cuốn hút?"
-  },
-  {
-    "id": "couple-r1",
-    "pack": "couple",
-    "level": 3,
-    "question": "Một chuyện gần đây nhất mà bạn cảm thấy mình đã chủ động đối diện và xử lý rất tốt để mối quan hệ của tụi mình tốt đẹp hơn là gì?"
-  },
-  {
-    "id": "couple-r2",
-    "pack": "couple",
-    "level": 3,
-    "question": "Có một khúc mắc, nỗi lo hay sự không thoải mái nào về đối phương/mối quan hệ mà bạn đang âm thầm né tránh chưa dám mở lời không?"
-  },
-  {
-    "id": "couple-hard-04",
-    "pack": "couple",
-    "level": 3,
-    "question": "Nếu bố mẹ bạn và người yêu xảy ra mâu thuẫn gay gắt không thể hàn gắn và cả hai bên ép bạn phải chọn đứng về một phía, bạn sẽ xử lý thế nào?"
   },
   {
     "id": "couple-hard-05",
@@ -458,10 +266,229 @@
     "question": "Nếu sau 5 năm sống chung, hai đứa nhận ra không thể có con cùng nhau, bạn sẽ chọn tiếp tục đồng hành trọn đời hay dừng lại vì kỳ vọng gia đình?"
   },
   {
-    "id": "couple-hard-06",
+    "id": "couple-r1",
     "pack": "couple",
     "level": 3,
-    "question": "Nếu đối phương không may gặp biến cố sức khỏe lớn cần bạn gác lại sự nghiệp để chăm sóc trong nhiều năm, bạn có dám thật lòng cam kết mà không oán trách không?"
+    "question": "Một chuyện gần đây nhất mà bạn cảm thấy mình đã chủ động đối diện và xử lý rất tốt để mối quan hệ của tụi mình tốt đẹp hơn là gì?"
+  },
+
+  {
+    "id": "cspicy-01",
+    "pack": "couple_spicy",
+    "level": 1,
+    "question": "Cử chỉ hoặc hành động nhỏ nào của mình (hôn lên cổ, ôm từ phía sau, vuốt tóc) dễ khiến bạn 'bật công tắc' rạo rực nhất?"
+  },
+  {
+    "id": "cspicy-02",
+    "pack": "couple_spicy",
+    "level": 1,
+    "question": "Nụ hôn ở vị trí nào trên cơ thể bạn (ngoài môi) khiến bạn cảm thấy nhột nhạt và kích thích nhất?"
+  },
+  {
+    "id": "cspicy-03",
+    "pack": "couple_spicy",
+    "level": 1,
+    "question": "Bộ trang phục hoặc phong cách ăn mặc nào của đối phương khiến bạn cảm thấy bị thu hút và muốn gần gũi nhất?"
+  },
+  {
+    "id": "cspicy-04",
+    "pack": "couple_spicy",
+    "level": 1,
+    "question": "Điểm nhạy cảm 'bí mật' nhất trên cơ thể bạn mà bạn nghĩ đối phương chưa khám phá hết là ở đâu?"
+  },
+  {
+    "id": "cspicy-05",
+    "pack": "couple_spicy",
+    "level": 1,
+    "question": "Lần gần nhất bạn nhìn đối phương và bất giác xuất hiện một suy nghĩ 'đen tối' trong đầu là khi nào?"
+  },
+  {
+    "id": "cspicy-06",
+    "pack": "couple_spicy",
+    "level": 1,
+    "question": "Bạn thích được đối phương hôn kiểu nhẹ nhàng mơn trớn kéo dài hay mãnh liệt, cuồng nhiệt ngay từ đầu?"
+  },
+  {
+    "id": "cspicy-07",
+    "pack": "couple_spicy",
+    "level": 1,
+    "question": "Âm thanh hoặc lời thì thầm nào vào tai lúc đang ôm nhau dễ khiến bạn nổi da gà và tan chảy nhất?"
+  },
+  {
+    "id": "cspicy-08",
+    "pack": "couple_spicy",
+    "level": 1,
+    "question": "Bộ phận nào trên cơ thể của mình mà mỗi khi nhìn thấy hoặc chạm vào đều khiến bạn muốn 'chiếm lấy'?"
+  },
+  {
+    "id": "cspicy-09",
+    "pack": "couple_spicy",
+    "level": 1,
+    "question": "Bạn có thích cảm giác được đối phương chủ động bất ngờ kéo lại gần và hôn đắm đuối ở một nơi hơi đông người không?"
+  },
+  {
+    "id": "cspicy-10",
+    "pack": "couple_spicy",
+    "level": 1,
+    "question": "Một mùi hương (nước hoa, sữa tắm, mùi cơ thể tự nhiên) của đối phương khiến bạn bị cuốn hút không cưỡng lại được?"
+  },
+  {
+    "id": "cspicy-11",
+    "pack": "couple_spicy",
+    "level": 1,
+    "question": "Nếu tối nay tụi mình chỉ được chạm vào nhau mà không được phép hôn môi trong 15 phút, bạn nghĩ ai sẽ là người chịu thua trước?"
+  },
+  {
+    "id": "cspicy-12",
+    "pack": "couple_spicy",
+    "level": 1,
+    "question": "Khi hai đứa nằm cạnh nhau xem phim, hành động skinship nào của đối phương khiến bạn khó tập trung vào màn hình nhất?"
+  },
+
+  {
+    "id": "cspicy-13",
+    "pack": "couple_spicy",
+    "level": 2,
+    "question": "Khi ở trên giường, bạn thích cảm giác mình là người nắm quyền kiểm soát (chủ động) hay thích hoàn toàn phó mặc và để đối phương dẫn dắt?"
+  },
+  {
+    "id": "cspicy-14",
+    "pack": "couple_spicy",
+    "level": 2,
+    "question": "Hành động nào của đối phương trong lúc gần gũi khiến bạn cảm thấy đê mê và dễ 'lên đỉnh' nhất?"
+  },
+  {
+    "id": "cspicy-15",
+    "pack": "couple_spicy",
+    "level": 2,
+    "question": "Bạn thích không gian lúc gần gũi hoàn toàn bật sáng đèn để nhìn rõ cảm xúc của nhau, hay tắt đèn mờ ảo lãng mạn?"
+  },
+  {
+    "id": "cspicy-16",
+    "pack": "couple_spicy",
+    "level": 2,
+    "question": "Lần gần gũi nào giữa hai đứa từ trước đến nay mà bạn cảm thấy cuồng nhiệt, thỏa mãn và nhớ mãi không quên?"
+  },
+  {
+    "id": "cspicy-17",
+    "pack": "couple_spicy",
+    "level": 2,
+    "question": "Khi có một cảm giác chưa thực sự thỏa mãn hoặc muốn đối phương thay đổi nhịp điệu/tư thế, bạn muốn giao tiếp bằng lời nói hay hướng dẫn bằng cử chỉ cơ thể?"
+  },
+  {
+    "id": "cspicy-18",
+    "pack": "couple_spicy",
+    "level": 2,
+    "question": "Có bao giờ bạn 'diễn' hoặc cố tỏ ra thỏa mãn hơn thực tế chỉ để đối phương không bị hụt hẫng chưa?"
+  },
+  {
+    "id": "cspicy-19",
+    "pack": "couple_spicy",
+    "level": 2,
+    "question": "Sau những phút giây thăng hoa, bạn thích nằm ôm ấp tâm sự thủ thỉ, hay cần một khoảng lặng nghỉ ngơi uống nước?"
+  },
+  {
+    "id": "cspicy-20",
+    "pack": "couple_spicy",
+    "level": 2,
+    "question": "Một hành động của đối phương trên giường mà bạn thấy cực kỳ quyến rũ nhưng chưa từng khen thành lời?"
+  },
+  {
+    "id": "cspicy-21",
+    "pack": "couple_spicy",
+    "level": 2,
+    "question": "Thời điểm nào trong ngày (sáng sớm thức dậy, nửa đêm, hay buổi chiều ngẫu hứng) khiến bạn có nhiều hứng thú gần gũi nhất?"
+  },
+  {
+    "id": "cspicy-22",
+    "pack": "couple_spicy",
+    "level": 2,
+    "question": "Đối với bạn, màn dạo đầu (foreplay) nên kéo dài bao lâu và bạn thích được kích thích về mặt cảm xúc hay thể xác nhiều hơn?"
+  },
+  {
+    "id": "cspicy-23",
+    "pack": "couple_spicy",
+    "level": 2,
+    "question": "Bạn nghĩ mức độ ăn ý trong chuyện chăn gối của tụi mình hiện tại đạt bao nhiêu điểm trên thang điểm 10?"
+  },
+  {
+    "id": "cspicy-24",
+    "pack": "couple_spicy",
+    "level": 2,
+    "question": "Có thói quen hay hành động nào trong lúc thân mật mà bạn mong muốn tụi mình cùng thử điều chỉnh để cả hai thấy thăng hoa hơn không?"
+  },
+
+  {
+    "id": "cspicy-25",
+    "pack": "couple_spicy",
+    "level": 3,
+    "question": "Một tưởng tượng táo bạo (fantasy) về chuyện phòng the mà bạn từng nghĩ tới trong đầu nhưng vì ngại nên chưa bao giờ dám kể với mình?"
+  },
+  {
+    "id": "cspicy-26",
+    "pack": "couple_spicy",
+    "level": 3,
+    "question": "Một địa điểm khác lạ ngoài chiếc giường ngủ quen thuộc (ví dụ: sofa phòng khách, nhà tắm, ban công khách sạn, trong xe hơi) mà bạn luôn muốn cùng mình thử một lần?"
+  },
+  {
+    "id": "cspicy-27",
+    "pack": "couple_spicy",
+    "level": 3,
+    "question": "Bạn có thích thử nghiệm những yếu tố mới mẻ như bịt mắt, trang phục cosplay gợi cảm, hoặc chơi trò nhập vai (roleplay) cùng nhau không?"
+  },
+  {
+    "id": "cspicy-28",
+    "pack": "couple_spicy",
+    "level": 3,
+    "question": "Nếu tối nay hai đứa có thể làm bất cứ điều gì trên giường mà không có bất kỳ rào cản hay sự phán xét nào, bạn muốn thử điều gì đầu tiên?"
+  },
+  {
+    "id": "cspicy-29",
+    "pack": "couple_spicy",
+    "level": 3,
+    "question": "Một khao khát thầm kín nhất về chuyện thể xác mà bạn sợ nếu nói ra thì đối phương sẽ nghĩ bạn 'hư hỏng' hoặc khác lạ?"
+  },
+  {
+    "id": "cspicy-30",
+    "pack": "couple_spicy",
+    "level": 3,
+    "question": "Có bộ phận hoặc vùng nhạy cảm nào bạn rất muốn được đối phương hôn và vuốt ve nhiều hơn nhưng ngại không dám đòi hỏi?"
+  },
+  {
+    "id": "cspicy-31",
+    "pack": "couple_spicy",
+    "level": 3,
+    "question": "Bạn thích sự cuồng nhiệt mãnh liệt hơi hoang dại một chút, hay thích sự dịu dàng êm ái chậm rãi như một bản tình ca?"
+  },
+  {
+    "id": "cspicy-32",
+    "pack": "couple_spicy",
+    "level": 3,
+    "question": "Đã bao giờ bạn có một giấc mơ ướt át về đối phương khiến sáng hôm sau thức dậy bạn nhìn người ấy mà mặt đỏ bừng chưa?"
+  },
+  {
+    "id": "cspicy-33",
+    "pack": "couple_spicy",
+    "level": 3,
+    "question": "Nếu được phép yêu cầu đối phương mặc một món đồ hoặc không mặc gì ngay lúc này, bạn sẽ yêu cầu điều gì?"
+  },
+  {
+    "id": "cspicy-34",
+    "pack": "couple_spicy",
+    "level": 3,
+    "question": "Bạn cảm thấy thế nào về việc sử dụng thêm đồ chơi (toys) hoặc các phụ kiện hỗ trợ để tăng khoái cảm cho cả hai?"
+  },
+  {
+    "id": "cspicy-35",
+    "pack": "couple_spicy",
+    "level": 3,
+    "question": "Điều táo bạo nhất mà bạn từng muốn làm với mình trong một không gian nửa kín nửa hở (nơi có nguy cơ bị phát hiện) là gì?"
+  },
+  {
+    "id": "cspicy-36",
+    "pack": "couple_spicy",
+    "level": 3,
+    "question": "Lời thì thầm táo bạo nhất bạn muốn nói vào tai mình ngay trong đêm nay là gì?"
   },
 
   {
@@ -495,22 +522,10 @@
     "question": "Món ăn hoặc 'quán ruột' nào mỗi lần gặp nhau là cả nhóm phải ghé ăn cho bằng được?"
   },
   {
-    "id": "friends-06",
-    "pack": "friends",
-    "level": 1,
-    "question": "Gu âm nhạc hoặc bộ phim nào bạn cực kỳ mê nhưng bạn bè trong nhóm lại thấy 'khó cảm'?"
-  },
-  {
     "id": "friends-07",
     "pack": "friends",
     "level": 1,
     "question": "Ấn tượng đầu tiên khi mới gặp một thành viên trong nhóm khác với thực tế sau này như thế nào?"
-  },
-  {
-    "id": "friends-08",
-    "pack": "friends",
-    "level": 1,
-    "question": "Thói quen 'lạ đời' nhưng đáng yêu nào của bạn bè trong nhóm khiến bạn thấy quen thuộc nhất?"
   },
   {
     "id": "friends-fun-01",
@@ -586,12 +601,6 @@
     "question": "Khi bạn bè trong nhóm có hiểu lầm hoặc xích mích, bạn thường đóng vai trò giảng hòa hay để mọi người tự giải quyết?"
   },
   {
-    "id": "friends-15",
-    "pack": "friends",
-    "level": 2,
-    "question": "Có điều gì trong cách cư xử của nhóm mà bạn từng cảm thấy hơi chạnh lòng nhưng chưa có dịp nói ra?"
-  },
-  {
     "id": "friends-16",
     "pack": "friends",
     "level": 2,
@@ -616,52 +625,16 @@
     "question": "Khi bản thân rơi vào khủng hoảng hoặc thất bại nặng nề, bạn có chủ động tìm đến bạn bè tâm sự không, hay cố gồng tỏ ra mình vẫn ổn?"
   },
   {
-    "id": "friends-d4",
-    "pack": "friends",
-    "level": 2,
-    "question": "Khi thấy bạn thân đang đưa ra quyết định sai lầm (trong tình cảm hoặc sự nghiệp), bạn sẽ can ngăn quyết liệt hay tôn trọng để họ tự trải nghiệm hậu quả?"
-  },
-  {
-    "id": "friends-d5",
-    "pack": "friends",
-    "level": 2,
-    "question": "Nếu cảm thấy mối quan hệ với một người bạn đang dần xa cách và nhạt nhòa, phản ứng thực tế của bạn là chủ động níu giữ hay để mọi thứ tự trôi đi theo thời gian?"
-  },
-  {
-    "id": "friends-fun-07",
-    "pack": "friends",
-    "level": 2,
-    "question": "Nếu đứa bạn thân dẫn người yêu mới về ra mắt mà bạn nhìn thấy 'red flag' bay phấp phới, bạn sẽ cảnh báo ngay hay ngồi chờ 'kịch hay'?"
-  },
-  {
     "id": "friends-fun-08",
     "pack": "friends",
     "level": 2,
     "question": "Kèo nào của nhóm bạn luôn chốt 'Ok tao tới liền' nhưng thực tế là vừa mới mở mắt dậy và chưa bước xuống giường?"
   },
   {
-    "id": "friends-fun-09",
-    "pack": "friends",
-    "level": 2,
-    "question": "Bí mật ngớ ngẩn nào của đứa bạn thân mà bạn hứa sống để bụng chết mang theo nhưng suýt nữa lỡ mồm buôn với người khác?"
-  },
-  {
-    "id": "friends-hard-01",
-    "pack": "friends",
-    "level": 2,
-    "question": "Nếu bạn phát hiện người yêu của bạn thân đang 'bắt cá hai tay', bạn sẽ nói thẳng với bạn mình ngay lập tức hay im lặng để họ tự nhận ra?"
-  },
-  {
     "id": "friends-hard-02",
     "pack": "friends",
     "level": 2,
     "question": "Chọn 1 trong 2: Cho bạn thân vay một khoản tiền lớn dù biết có nguy cơ mất tiền lẫn mất bạn, hay thẳng thừng từ chối và chịu mang tiếng ích kỷ?"
-  },
-  {
-    "id": "friends-hard-03",
-    "pack": "friends",
-    "level": 2,
-    "question": "Nếu bạn và bạn thân cùng cạnh tranh trực tiếp cho một vị trí công việc mơ ước duy nhất, bạn có cạnh tranh hết mình bằng mọi giá không?"
   },
 
   {
@@ -695,46 +668,10 @@
     "question": "Điều gì khiến bạn trân trọng nhất ở tình bạn này mà khó có thể tìm thấy ở các mối quan hệ xã giao khác?"
   },
   {
-    "id": "friends-22",
-    "pack": "friends",
-    "level": 3,
-    "question": "Nếu được quay lại một thời điểm đẹp nhất của tình bạn tụi mình, bạn muốn sống lại khoảnh khắc nào?"
-  },
-  {
-    "id": "friends-23",
-    "pack": "friends",
-    "level": 3,
-    "question": "Một nỗi sợ vô hình về sự già đi hoặc khoảng cách thời gian giữa bạn bè mà bạn từng thoáng nghĩ tới?"
-  },
-  {
     "id": "friends-24",
     "pack": "friends",
     "level": 3,
     "question": "Lời cảm ơn chân thành nhất mà bạn muốn nói với những người bạn đang ngồi cạnh bạn hôm nay là gì?"
-  },
-  {
-    "id": "friends-r1",
-    "pack": "friends",
-    "level": 3,
-    "question": "Một mâu thuẫn, hiểu lầm hoặc tình huống khó xử với một người bạn gần đây mà bạn cảm thấy mình đã xử lý chín chắn và đúng đắn là gì?"
-  },
-  {
-    "id": "friends-r2",
-    "pack": "friends",
-    "level": 3,
-    "question": "Có một cuộc trò chuyện thẳng thắn, một thắc mắc hoặc một lời xin lỗi với một người bạn nào đó mà bạn đã né tránh rất lâu và đến giờ vẫn chưa nói ra không?"
-  },
-  {
-    "id": "friends-hard-04",
-    "pack": "friends",
-    "level": 3,
-    "question": "Nếu một người bạn thân chí cốt làm điều vi phạm đạo đức nghiêm trọng hoặc phạm pháp, bạn sẽ bao che bảo vệ bạn mình hay khuyên họ ra chịu trách nhiệm?"
-  },
-  {
-    "id": "friends-hard-05",
-    "pack": "friends",
-    "level": 3,
-    "question": "Khi thấy bạn thân thành công và giàu có vượt bậc trong khi bản thân đang dậm chân tại chỗ, cảm xúc thật nhất trong lòng bạn là ghen tị ngầm hay vui mừng trọn vẹn?"
   },
   {
     "id": "friends-hard-06",
@@ -742,562 +679,229 @@
     "level": 3,
     "question": "Ranh giới nào nếu bị vượt qua sẽ khiến bạn dứt khoát chấm dứt một tình bạn 10 năm mà không bao giờ cho cơ hội hàn gắn?"
   },
-
   {
-    "id": "family-01",
-    "pack": "family",
-    "level": 1,
-    "question": "Món ăn nào trong bữa cơm gia đình mà dù đi bất cứ quán sang nào bạn cũng thấy không đâu nấu ngon bằng?"
-  },
-  {
-    "id": "family-02",
-    "pack": "family",
-    "level": 1,
-    "question": "Câu nói cửa miệng quen thuộc hoặc thói quen hài hước nào của bố/mẹ khiến cả nhà bật cười?"
-  },
-  {
-    "id": "family-03",
-    "pack": "family",
-    "level": 1,
-    "question": "Kỷ niệm đón Tết hoặc chuyến đi chơi cả nhà đông đủ nhất thời thơ ấu mà bạn nhớ sâu sắc là chuyến đi nào?"
-  },
-  {
-    "id": "family-04",
-    "pack": "family",
-    "level": 1,
-    "question": "Bạn thấy mình giống bố mẹ nhất ở nét tính cách hay thói quen kỳ lạ nào?"
-  },
-  {
-    "id": "family-05",
-    "pack": "family",
-    "level": 1,
-    "question": "Kỷ vật hoặc đồ vật cổ nào trong nhà mà bạn thấy gia đình gìn giữ suốt bao năm qua?"
-  },
-  {
-    "id": "family-06",
-    "pack": "family",
-    "level": 1,
-    "question": "Trò nghịch ngợm hồi nhỏ giữa bạn và anh/chị/em trong nhà từng bị bố mẹ phạt nhớ đời?"
-  },
-  {
-    "id": "family-07",
-    "pack": "family",
-    "level": 1,
-    "question": "Truyền thống hoặc thói quen sinh hoạt nào của gia đình mà bạn muốn tiếp tục duy trì cho tổ ấm sau này?"
-  },
-  {
-    "id": "family-08",
-    "pack": "family",
-    "level": 1,
-    "question": "Một bài hát, bộ phim hoặc chương trình truyền hình gắn liền với ký ức tuổi thơ sum vầy của cả nhà?"
-  },
-  {
-    "id": "family-fun-01",
-    "pack": "family",
-    "level": 1,
-    "question": "Ai trong nhà có thói quen lướt video với âm lượng loa ngoài 100% gây ức chế nhất?"
-  },
-  {
-    "id": "family-fun-02",
-    "pack": "family",
-    "level": 1,
-    "question": "Nếu trao giải 'Oscar gia đình', ai sẽ giật cúp 'Gương mặt drama nhất' và ai là 'Chuyên gia càm ràm nhất'?"
-  },
-  {
-    "id": "family-fun-03",
-    "pack": "family",
-    "level": 1,
-    "question": "Chiêu 'văn mẫu' quen thuộc nhất của bố mẹ mỗi khi giục con cái dọn nhà hoặc lấy vợ/gả chồng là gì?"
-  },
-  {
-    "id": "family-fun-04",
-    "pack": "family",
-    "level": 1,
-    "question": "Món ăn nào của một thành viên trong nhà nấu mà cả nhà luôn phải 'bấm bụng' khen ngon để giữ gìn hòa khí?"
-  },
-  {
-    "id": "family-fun-05",
-    "pack": "family",
-    "level": 1,
-    "question": "Thói quen tiết kiệm kỳ lạ nào của người lớn trong nhà (giữ 100 túi nilon, hộp bánh đựng kim chỉ) làm bạn vừa cười vừa bất lực?"
-  },
-  {
-    "id": "family-fun-06",
-    "pack": "family",
-    "level": 1,
-    "question": "Nếu trong nhà có camera giấu kín 24/7, khoảnh khắc ngố tàu nào của bạn sẽ bị phát sóng đầu tiên?"
+    "id": "friends-r1",
+    "pack": "friends",
+    "level": 3,
+    "question": "Một mâu thuẫn, hiểu lầm hoặc tình huống khó xử với một người bạn gần đây mà bạn cảm thấy mình đã xử lý chín chắn và đúng đắn là gì?"
   },
 
   {
-    "id": "family-09",
-    "pack": "family",
-    "level": 2,
-    "question": "Khoảnh khắc nào khiến bạn giật mình nhận ra bố mẹ hoặc người thân của mình đã bắt đầu già đi?"
+    "id": "fspicy-01",
+    "pack": "friends_spicy",
+    "level": 1,
+    "question": "Nụ hôn đầu đời của bạn diễn ra vào năm bao nhiêu tuổi, với ai và bối cảnh lúc đó ngố tàu hay lãng mạn?"
   },
   {
-    "id": "family-10",
-    "pack": "family",
-    "level": 2,
-    "question": "Khoảng cách thế hệ nào giữa bạn và gia đình mà bạn luôn mong hai bên có thể thấu hiểu nhau hơn?"
+    "id": "fspicy-02",
+    "pack": "friends_spicy",
+    "level": 1,
+    "question": "Gu người yêu hoặc hình mẫu bạn tình 'chuẩn gu' khiến bạn dễ rung động từ cái nhìn đầu tiên là gì?"
   },
   {
-    "id": "family-11",
-    "pack": "family",
-    "level": 2,
-    "question": "Một bài học đạo đức hoặc cách đối nhân xử thế từ gia đình mà bạn luôn mang theo làm kim chỉ nam?"
+    "id": "fspicy-03",
+    "pack": "friends_spicy",
+    "level": 1,
+    "question": "Pha tán tỉnh hoặc bị tán tỉnh 'quê xệ' nhớ đời nhất mà mỗi lần nghĩ lại bạn chỉ muốn đào lỗ chui xuống?"
   },
   {
-    "id": "family-12",
-    "pack": "family",
-    "level": 2,
-    "question": "Điều gì người thân đã âm thầm hy sinh vì bạn mà sau này khi trưởng thành bạn mới thực sự thấu hiểu?"
+    "id": "fspicy-04",
+    "pack": "friends_spicy",
+    "level": 1,
+    "question": "Số lượng người mà bạn từng hẹn hò hoặc có mối quan hệ mập mờ tính đến thời điểm hiện tại là bao nhiêu?"
   },
   {
-    "id": "family-13",
-    "pack": "family",
-    "level": 2,
-    "question": "Một lời khen hoặc sự công nhận từ gia đình mà bạn từng khao khát nhận được nhất thời đi học?"
+    "id": "fspicy-05",
+    "pack": "friends_spicy",
+    "level": 1,
+    "question": "Trong hội bạn đang ngồi đây, bạn nghĩ gu chọn người yêu của đứa nào là 'bất ổn' và nhiều red flag nhất?"
   },
   {
-    "id": "family-14",
-    "pack": "family",
-    "level": 2,
-    "question": "Khi bạn gặp thất bại ngoài xã hội, hành động ấm áp nào của gia đình đã là chỗ dựa vững chắc cho bạn?"
+    "id": "fspicy-06",
+    "pack": "friends_spicy",
+    "level": 1,
+    "question": "Bạn đã từng 'crush' hoặc có tình cảm thoáng qua với bạn thân của mình bao giờ chưa?"
   },
   {
-    "id": "family-15",
-    "pack": "family",
-    "level": 2,
-    "question": "Có quyết định lớn nào trong đời bạn từng đi ngược lại mong muốn của bố mẹ nhưng bạn không hề hối hận?"
+    "id": "fspicy-07",
+    "pack": "friends_spicy",
+    "level": 1,
+    "question": "Kỷ niệm một lần say xỉn và lỡ nhắn tin/gọi điện 'làm phiền' người yêu cũ hoặc crush khiến hôm sau hối hận tột độ?"
   },
   {
-    "id": "family-16",
-    "pack": "family",
-    "level": 2,
-    "question": "Điều bạn mong mỏi bố mẹ dành cho bản thân họ nhiều hơn thay vì chỉ mãi lo lắng cho con cái?"
+    "id": "fspicy-08",
+    "pack": "friends_spicy",
+    "level": 1,
+    "question": "Chiêu 'thả thính' đỉnh cao nhất hoặc dở tệ nhất mà bạn từng áp dụng khi đi bar/pub hoặc qua ứng dụng hẹn hò?"
   },
   {
-    "id": "family-d1",
-    "pack": "family",
-    "level": 2,
-    "question": "Thời thơ ấu khi người lớn trong nhà cãi nhau, cách họ xử lý là gì (la mắng, chiến tranh lạnh, nói chuyện) và bạn có thấy mình đang vô thức lặp lại cách đó không?"
+    "id": "fspicy-09",
+    "pack": "friends_spicy",
+    "level": 1,
+    "question": "Bạn có tin vào tình bạn trong sáng 100% giữa nam và nữ không, hay kiểu gì cũng có một người từng rung động?"
   },
   {
-    "id": "family-d2",
-    "pack": "family",
-    "level": 2,
-    "question": "Khi bị người thân trong gia đình áp đặt hoặc chỉ trích, phản ứng thực tế của bạn là: phản kháng gay gắt, im lặng cam chịu, hay tìm cách giải thích bình tĩnh?"
+    "id": "fspicy-10",
+    "pack": "friends_spicy",
+    "level": 1,
+    "question": "Mẫu người mà nhìn bề ngoài thì bạn chê nhưng sâu bên trong lại là 'gu ngầm' khiến bạn mê mẩn?"
   },
   {
-    "id": "family-d3",
-    "pack": "family",
-    "level": 2,
-    "question": "Gia đình bạn thường đối diện với khó khăn tài chính hoặc biến cố lớn bằng sự san sẻ đoàn kết hay bằng sự căng thẳng đổ lỗi?"
+    "id": "fspicy-11",
+    "pack": "friends_spicy",
+    "level": 1,
+    "question": "Nếu phải ghép đôi 2 đứa bất kỳ trong nhóm bạn này với nhau thành một cặp, bạn nghĩ cặp nào sẽ tạo ra drama chấn động nhất?"
   },
   {
-    "id": "family-d4",
-    "pack": "family",
-    "level": 2,
-    "question": "Có thói quen đối phó tiêu cực nào của bố mẹ (như trốn tránh vấn đề, trút giận lên người khác) mà bạn đang phải nỗ lực để không lặp lại ở bản thân?"
-  },
-  {
-    "id": "family-d5",
-    "pack": "family",
-    "level": 2,
-    "question": "Khi có sự bất đồng lớn về quan điểm sống giữa bạn và gia đình, bạn chọn cách 'vâng dạ cho qua chuyện' hay kiên trì đối thoại để bảo vệ chính kiến?"
-  },
-  {
-    "id": "family-fun-07",
-    "pack": "family",
-    "level": 2,
-    "question": "Mỗi dịp Tết đến, câu hỏi 'hỏi thăm' nào từ họ hàng khiến bạn muốn 'bốc hơi' khỏi mâm cỗ nhất?"
-  },
-  {
-    "id": "family-fun-08",
-    "pack": "family",
-    "level": 2,
-    "question": "Chiêu bài 'trốn việc nhà' đỉnh cao nhất thời thơ ấu mà bạn từng áp dụng trót lọt với bố mẹ là gì?"
-  },
-  {
-    "id": "family-fun-09",
-    "pack": "family",
-    "level": 2,
-    "question": "Bí mật 'phá đồ' hoặc 'làm mất đồ' trong nhà hồi nhỏ mà đến tận bây giờ bạn vẫn đổ tội cho anh/chị/em hoặc... con mèo?"
-  },
-  {
-    "id": "family-hard-01",
-    "pack": "family",
-    "level": 2,
-    "question": "Chọn 1 trong 2: Sống cuộc đời theo đúng kỳ vọng của bố mẹ để họ luôn tự hào, hay sống theo đam mê cá nhân dù khiến bố mẹ thất vọng và lo lắng?"
-  },
-  {
-    "id": "family-hard-02",
-    "pack": "family",
-    "level": 2,
-    "question": "Nếu người thân trong gia đình liên tục vay mượn tiền bạc và ỷ lại vào bạn, bạn sẽ tiếp tục gánh vác vì chữ hiếu hay dứt khoát cắt đứt tài chính?"
-  },
-  {
-    "id": "family-hard-03",
-    "pack": "family",
-    "level": 2,
-    "question": "Khi phát hiện người lớn trong nhà có định kiến sai lệch hoặc phân biệt đối xử bất công giữa con cháu, bạn sẽ lên tiếng phản đối hay im lặng vì chữ hiếu?"
+    "id": "fspicy-12",
+    "pack": "friends_spicy",
+    "level": 1,
+    "question": "Lần gần nhất bạn 'lụy tình' khóc lóc sướt mướt vì một người là bao lâu trước đây?"
   },
 
   {
-    "id": "family-17",
-    "pack": "family",
-    "level": 3,
-    "question": "Lời xin lỗi nào với người thân trong gia đình mà bấy lâu nay bạn ngại ngùng chưa dám nói ra?"
+    "id": "fspicy-13",
+    "pack": "friends_spicy",
+    "level": 2,
+    "question": "Trải nghiệm 'lần đầu tiên' của bạn diễn ra trong hoàn cảnh nào: vụng về bỡ ngỡ, lãng mạn hay là một thảm họa muốn quên?"
   },
   {
-    "id": "family-18",
-    "pack": "family",
-    "level": 3,
-    "question": "Ước mơ thời trẻ của bố/mẹ bị gác lại vì mưu sinh nuôi con mà bạn mong ước có thể bù đắp lại là gì?"
+    "id": "fspicy-14",
+    "pack": "friends_spicy",
+    "level": 2,
+    "question": "Bạn đã từng có mối quan hệ FWB (Friends with benefits), ONS (One-night stand) hoặc 'tình một đêm' nào chưa?"
   },
   {
-    "id": "family-19",
-    "pack": "family",
-    "level": 3,
-    "question": "Nỗi sợ lớn nhất của bạn khi nghĩ về thời gian ở bên cạnh bố mẹ và người thân ngày một ngắn lại?"
+    "id": "fspicy-15",
+    "pack": "friends_spicy",
+    "level": 2,
+    "question": "Red flag lớn nhất hoặc trải nghiệm 'tắt ngúm cảm xúc' nhớ đời nhất mà bạn từng gặp phải khi lên giường với một người?"
   },
   {
-    "id": "family-20",
-    "pack": "family",
-    "level": 3,
-    "question": "Điều gì bạn muốn nói với người thân ngay lúc này để nếu mai này nhìn lại sẽ không thấy hối tiếc?"
+    "id": "fspicy-16",
+    "pack": "friends_spicy",
+    "level": 2,
+    "question": "Bạn đã từng bị ai đó (bố mẹ, bạn cùng phòng, bạn bè) bắt quả tang hoặc suýt bị bắt quả tang khi đang 'hành sự' chưa?"
   },
   {
-    "id": "family-21",
-    "pack": "family",
-    "level": 3,
-    "question": "Định nghĩa về một 'mái ấm gia đình hạnh phúc và bình yên' đối với riêng bạn là gì?"
+    "id": "fspicy-17",
+    "pack": "friends_spicy",
+    "level": 2,
+    "question": "Thành thật khai báo: Bạn đã từng 'bắt cá hai tay' hoặc đứng núi này trông núi nọ trong một mối quan hệ tình cảm chưa?"
   },
   {
-    "id": "family-22",
-    "pack": "family",
-    "level": 3,
-    "question": "Một vết thương tinh thần hoặc hiểu lầm trong gia đình thời thơ ấu mà bạn đã hoặc đang học cách chữa lành?"
+    "id": "fspicy-18",
+    "pack": "friends_spicy",
+    "level": 2,
+    "question": "Địa điểm kỳ lạ hoặc táo bạo nhất ngoài chiếc giường ngủ mà bạn từng làm chuyện ấy là ở đâu?"
   },
   {
-    "id": "family-23",
-    "pack": "family",
-    "level": 3,
-    "question": "Di sản tinh thần quý giá nhất mà gia đình đã truyền lại cho con người của bạn hôm nay là gì?"
+    "id": "fspicy-19",
+    "pack": "friends_spicy",
+    "level": 2,
+    "question": "Có bao giờ bạn nhận lời ngủ với ai đó chỉ vì cô đơn hoặc tò mò chứ hoàn toàn không hề có tình cảm không?"
   },
   {
-    "id": "family-24",
-    "pack": "family",
-    "level": 3,
-    "question": "Nếu chỉ được nhắn gửi một câu ngắn gọn cho cả nhà ghi nhớ mãi, bạn sẽ nói điều gì?"
+    "id": "fspicy-20",
+    "pack": "friends_spicy",
+    "level": 2,
+    "question": "Một tật xấu hoặc phản ứng khó đỡ nhất của bạn sau khi say rượu liên quan đến chuyện tình cảm/tình dục là gì?"
   },
   {
-    "id": "family-r1",
-    "pack": "family",
-    "level": 3,
-    "question": "Một lần gần đây nhất bạn đã dũng cảm ngồi lại nói chuyện thẳng thắn và tháo gỡ được một hiểu lầm lâu năm với bố mẹ hoặc người thân là khi nào?"
+    "id": "fspicy-21",
+    "pack": "friends_spicy",
+    "level": 2,
+    "question": "Bạn đánh giá bản thân là người 'ngây thơ ngoan hiền' hay 'bậc thầy kinh nghiệm' trong chuyện chăn gối?"
   },
   {
-    "id": "family-r2",
-    "pack": "family",
-    "level": 3,
-    "question": "Có một chuyện gia đình hoặc khúc mắc trong nhà mà bạn đã né tránh đối diện suốt thời gian dài vì sợ làm tổn thương nhau không?"
+    "id": "fspicy-22",
+    "pack": "friends_spicy",
+    "level": 2,
+    "question": "Đã bao giờ bạn gặp trường hợp người yêu/bạn tình có mùi cơ thể hoặc kỹ năng trên giường dở tệ khiến bạn phải 'chạy mất dép' chưa?"
   },
   {
-    "id": "family-hard-04",
-    "pack": "family",
-    "level": 3,
-    "question": "Nếu phải chọn giữa việc ở gần chăm sóc phụng dưỡng bố mẹ lúc tuổi già và việc đi xa phát triển sự nghiệp đỉnh cao, bạn sẽ chọn điều gì?"
+    "id": "fspicy-23",
+    "pack": "friends_spicy",
+    "level": 2,
+    "question": "Bạn có bao giờ kiểm tra trộm tin nhắn điện thoại của người yêu và phát hiện ra sự thật động trời nào chưa?"
   },
   {
-    "id": "family-hard-05",
-    "pack": "family",
-    "level": 3,
-    "question": "Có tư tưởng hay thói quen độc hại nào của gia đình mà bạn thề sẽ chấm dứt ở thế hệ của bạn và không bao giờ áp đặt lên con cái?"
-  },
-  {
-    "id": "family-hard-06",
-    "pack": "family",
-    "level": 3,
-    "question": "Nếu một người thân từng gây ra tổn thương tâm lý rất lớn cho bạn thời thơ ấu, bạn có thể thật lòng tha thứ khi họ già đi không?"
+    "id": "fspicy-24",
+    "pack": "friends_spicy",
+    "level": 2,
+    "question": "Trong nhóm này, nếu phải chọn một đứa để đi cùng vào một bữa tiệc độc thân thác loạn nhất, bạn sẽ chọn ai?"
   },
 
   {
-    "id": "work-01",
-    "pack": "work",
-    "level": 1,
-    "question": "Thức uống hoặc món ăn vặt 'cứu sinh' nào giúp bạn vượt qua cơn buồn ngủ lúc 2 giờ chiều tại văn phòng?"
-  },
-  {
-    "id": "work-02",
-    "pack": "work",
-    "level": 1,
-    "question": "Kỷ niệm bỡ ngỡ hoặc 'ngố tàu' nhất của bạn trong những ngày đầu tiên đi làm là gì?"
-  },
-  {
-    "id": "work-03",
-    "pack": "work",
-    "level": 1,
-    "question": "Nếu được phép hoán đổi vị trí công việc cho một đồng nghiệp trong công ty 1 ngày, bạn muốn thử sức ở vị trí nào?"
-  },
-  {
-    "id": "work-04",
-    "pack": "work",
-    "level": 1,
-    "question": "Cách bạn thường xả stress nhanh nhất sau một buổi họp căng thẳng hoặc vừa chạy xong deadline?"
-  },
-  {
-    "id": "work-05",
-    "pack": "work",
-    "level": 1,
-    "question": "Một tài lẻ hoặc sở thích cá nhân ngoài giờ làm việc mà ít đồng nghiệp nào ở công ty biết về bạn?"
-  },
-  {
-    "id": "work-06",
-    "pack": "work",
-    "level": 1,
-    "question": "Phong cách làm việc của bạn là: tập trung cao độ buổi sáng sớm hay là 'cú đêm' sáng tạo?"
-  },
-  {
-    "id": "work-07",
-    "pack": "work",
-    "level": 1,
-    "question": "Món đồ trang trí hoặc vật dụng nào trên bàn làm việc giúp bạn có nhiều cảm hứng nhất?"
-  },
-  {
-    "id": "work-08",
-    "pack": "work",
-    "level": 1,
-    "question": "Câu nói hài hước hoặc tiếng lóng quen thuộc nào của team mình khiến bạn thấy vui vẻ khi nghe?"
-  },
-  {
-    "id": "work-fun-01",
-    "pack": "work",
-    "level": 1,
-    "question": "Ai trong văn phòng xứng đáng nhận cúp 'Chiến thần order trà sữa' và ai là 'Thánh chuồn đúng 5h30'?"
-  },
-  {
-    "id": "work-fun-02",
-    "pack": "work",
-    "level": 1,
-    "question": "Nếu được quyền đổi luật công ty, bạn muốn 'Cấm họp trước 10h sáng' hay 'Cho phép ngủ trưa 2 tiếng'?"
-  },
-  {
-    "id": "work-fun-03",
-    "pack": "work",
-    "level": 1,
-    "question": "Biểu cảm gương mặt 'đang tập trung suy nghĩ sâu sắc' khi sếp đi ngang qua bàn làm việc của bạn trông như thế nào?"
-  },
-  {
-    "id": "work-fun-04",
-    "pack": "work",
-    "level": 1,
-    "question": "Tin nhắn nào trong công việc khiến bạn 'rùng mình' tụt huyết áp nhất (ví dụ: 'Alo em ơi', 'Sếp tìm em kìa')?"
-  },
-  {
-    "id": "work-fun-05",
-    "pack": "work",
-    "level": 1,
-    "question": "Nếu công ty trao giải 'Diễn viên xuất sắc nhất khi trả lời khách hàng/sếp', ai sẽ ẵm cúp vàng?"
-  },
-  {
-    "id": "work-fun-06",
-    "pack": "work",
-    "level": 1,
-    "question": "Thói quen 'tâm linh' hoặc 'cầu may' hài hước nào trước mỗi giờ họp báo cáo quan trọng mà bạn hay làm?"
-  },
-
-  {
-    "id": "work-09",
-    "pack": "work",
-    "level": 2,
-    "question": "Điều gì ở môi trường công sở hiện tại khiến bạn cảm thấy có động lực gắn bó và đến công ty mỗi ngày?"
-  },
-  {
-    "id": "work-10",
-    "pack": "work",
-    "level": 2,
-    "question": "Khi đối mặt với sự bất đồng ý kiến chuyên môn trong công việc, cách tiếp cận xử lý thường thấy của bạn là gì?"
-  },
-  {
-    "id": "work-11",
-    "pack": "work",
-    "level": 2,
-    "question": "Một kỹ năng chuyên môn hoặc kỹ năng mềm mà bạn đang muốn trau dồi nhất trong năm nay là gì?"
-  },
-  {
-    "id": "work-12",
-    "pack": "work",
-    "level": 2,
-    "question": "Thời điểm bạn từng bị 'burnout' (kiệt sức) trong công việc, điều gì đã giúp bạn hồi phục năng lượng và cân bằng lại?"
-  },
-  {
-    "id": "work-13",
-    "pack": "work",
-    "level": 2,
-    "question": "Theo bạn, yếu tố nào quan trọng nhất để xây dựng sự tin tưởng và tôn trọng giữa các thành viên trong một đội ngũ?"
-  },
-  {
-    "id": "work-14",
-    "pack": "work",
-    "level": 2,
-    "question": "Một lời góp ý thẳng thắn từ đồng nghiệp hoặc sếp từng làm bạn buồn lúc đầu nhưng sau này nhận ra rất giá trị?"
-  },
-  {
-    "id": "work-15",
-    "pack": "work",
-    "level": 2,
-    "question": "Cách bạn thường cân bằng ranh giới giữa công việc bận rộn và đời sống cá nhân sau giờ tan sở?"
-  },
-  {
-    "id": "work-16",
-    "pack": "work",
-    "level": 2,
-    "question": "Một dự án hoặc thành quả công việc chung của team khiến bạn cảm thấy tự hào nhất khi nhìn lại?"
-  },
-  {
-    "id": "work-d1",
-    "pack": "work",
-    "level": 2,
-    "question": "Khi bạn gây ra một sự cố hoặc lỗi sai nghiêm trọng trong công việc, phản ứng đầu tiên trong thực tế của bạn là: tự tìm cách âm thầm sửa, chủ động báo cáo nhận lỗi ngay, hay tìm lý do khách quan giải thích?"
-  },
-  {
-    "id": "work-d2",
-    "pack": "work",
-    "level": 2,
-    "question": "Khi phải làm việc chung với đồng nghiệp hoặc cấp trên có phong cách xung đột gay gắt với mình, bạn thường chọn cách thích nghi nhẫn nhịn, đối thoại thẳng thắn, hay hạn chế tiếp xúc tối đa?"
-  },
-  {
-    "id": "work-d3",
-    "pack": "work",
-    "level": 2,
-    "question": "Khi khối lượng công việc quá tải và deadline dồn dập, bạn có xu hướng cố cắn răng làm thêm giờ kiệt sức hay chủ động lên tiếng xin hỗ trợ và giãn tiến độ?"
-  },
-  {
-    "id": "work-d4",
-    "pack": "work",
-    "level": 2,
-    "question": "Nếu bị đối xử thiếu công bằng hoặc không được ghi nhận xứng đáng tại chỗ làm, phản ứng thực tế của bạn là đấu tranh đòi quyền lợi, bất mãn âm thầm, hay rải CV tìm chỗ mới?"
-  },
-  {
-    "id": "work-d5",
-    "pack": "work",
-    "level": 2,
-    "question": "Khi team gặp sự cố và không khí làm việc căng thẳng đổ lỗi cho nhau, bạn thường làm gì cụ thể để kéo sự tập trung của mọi người về việc giải quyết vấn đề?"
-  },
-  {
-    "id": "work-fun-07",
-    "pack": "work",
-    "level": 2,
-    "question": "Khoảnh khắc nào bạn lỡ 'bật mic/share nhầm màn hình' trong cuộc họp online khiến cả team được một phen cười nghiêng ngả?"
-  },
-  {
-    "id": "work-fun-08",
-    "pack": "work",
-    "level": 2,
-    "question": "Bạn đã bao giờ soạn sẵn đơn xin nghỉ việc trong máy tính chưa, và điều gì đã giữ chân bạn ở lại làm việc tiếp?"
-  },
-  {
-    "id": "work-fun-09",
-    "pack": "work",
-    "level": 2,
-    "question": "Bí kíp 'né deadline' hoặc 'xin khất task' nghe hợp lý và thuyết phục nhất mà bạn từng áp dụng là gì?"
-  },
-  {
-    "id": "work-hard-01",
-    "pack": "work",
-    "level": 2,
-    "question": "Chọn 1 trong 2: Mức lương cao gấp đôi nhưng làm việc dưới trướng một người sếp độc hại thao túng, hay mức lương vừa đủ nhưng môi trường đồng đội cực kỳ gắn kết thấu hiểu?"
-  },
-  {
-    "id": "work-hard-02",
-    "pack": "work",
-    "level": 2,
-    "question": "Nếu bạn phát hiện đồng nghiệp thân thiết đang 'nhận vơ' công sức của người khác để được thăng tiến, bạn có lên tiếng vạch trần không?"
-  },
-  {
-    "id": "work-hard-03",
-    "pack": "work",
-    "level": 2,
-    "question": "Khi dự án thất bại do lỗi của cả team, bạn sẽ cùng chịu trách nhiệm tập thể hay chủ động chỉ rõ phần việc mình đã làm tốt để tự bảo vệ mình?"
-  },
-
-  {
-    "id": "work-17",
-    "pack": "work",
+    "id": "fspicy-25",
+    "pack": "friends_spicy",
     "level": 3,
-    "question": "Thành công thực sự trong sự nghiệp đối với bạn được định nghĩa bởi thu nhập, chức danh hay giá trị bạn tạo ra?"
+    "question": "Một bí mật đen tối hoặc một chuyện 'hư hỏng' trong quá khứ của bạn mà bạn chưa từng dám kể cho bất kỳ ai ngồi đây nghe?"
   },
   {
-    "id": "work-18",
-    "pack": "work",
+    "id": "fspicy-26",
+    "pack": "friends_spicy",
     "level": 3,
-    "question": "Giá trị đạo đức nghề nghiệp cốt lõi nào bạn tự hứa với lòng sẽ không bao giờ đánh đổi dù ở bất cứ vị trí nào?"
+    "question": "Bạn có sở thích đặc biệt (fetish/kink) hoặc một gu tình dục kỳ lạ nào mà bình thường bạn luôn phải giấu kín không?"
   },
   {
-    "id": "work-19",
-    "pack": "work",
+    "id": "fspicy-27",
+    "pack": "friends_spicy",
     "level": 3,
-    "question": "Nếu tiền bạc không còn là gánh nặng cuộc sống, công việc hoặc đam mê cống hiến mà bạn muốn theo đuổi trọn đời là gì?"
+    "question": "Đã bao giờ bạn 'say nắng' hoặc nảy sinh ham muốn thể xác với người yêu của bạn bè mình chưa?"
   },
   {
-    "id": "work-20",
-    "pack": "work",
+    "id": "fspicy-28",
+    "pack": "friends_spicy",
     "level": 3,
-    "question": "Một thất bại hay vấp ngã lớn trong công việc từng khiến bạn hoài nghi bản thân nhưng lại là bước ngoặt giúp bạn bản lĩnh như hôm nay?"
+    "question": "Một lần bạn lỡ làm chuyện có lỗi rất lớn với người yêu/bạn đời nhưng đến nay người đó vẫn hoàn toàn bị giấu kín?"
   },
   {
-    "id": "work-21",
-    "pack": "work",
+    "id": "fspicy-29",
+    "pack": "friends_spicy",
     "level": 3,
-    "question": "Sau này khi rời khỏi tổ chức này, bạn mong muốn mọi người nhớ đến bạn như một người đồng đội và con người thế nào?"
+    "question": "Nếu buộc phải hôn một người cùng giới trong nhóm bạn đang ngồi đây để không phải uống cạn một ly rượu phạt, bạn có dám làm không?"
   },
   {
-    "id": "work-22",
-    "pack": "work",
+    "id": "fspicy-30",
+    "pack": "friends_spicy",
     "level": 3,
-    "question": "Mục tiêu sự nghiệp lớn nhất trong 5 năm tới mà bạn đang âm thầm nỗ lực mỗi ngày để chạm tới là gì?"
+    "question": "Có bao giờ bạn nhớ nhung cảm giác xác thịt với người yêu cũ dù hiện tại đã có người mới hoặc đã chia tay rất lâu?"
   },
   {
-    "id": "work-23",
-    "pack": "work",
+    "id": "fspicy-31",
+    "pack": "friends_spicy",
     "level": 3,
-    "question": "Điều gì ở bản thân mà bạn cảm thấy cần phải vượt qua để trở thành một người lãnh đạo hoặc chuyên gia tốt hơn?"
+    "question": "Trải nghiệm tình dục hoang dại nhất mà bạn từng tham gia khiến chính bạn sau này nhìn lại cũng phải thốt lên 'sao hồi đó mình bạo thế'?"
   },
   {
-    "id": "work-24",
-    "pack": "work",
+    "id": "fspicy-32",
+    "pack": "friends_spicy",
     "level": 3,
-    "question": "Lời khuyên đắt giá nhất về sự nghiệp mà bạn từng nhận được từ một người đi trước là gì?"
+    "question": "Nếu tất cả lịch sử tìm kiếm ẩn danh trên điện thoại của bạn bị chiếu lên màn hình lớn trước mặt mọi người, điều gì làm bạn xấu hổ nhất?"
   },
   {
-    "id": "work-r1",
-    "pack": "work",
+    "id": "fspicy-33",
+    "pack": "friends_spicy",
     "level": 3,
-    "question": "Một sự cố, khủng hoảng hoặc áp lực công việc gần đây mà bạn cảm thấy tự hào vì mình đã giữ được bình tĩnh và giải quyết rất tốt là gì?"
+    "question": "Bạn đã từng gửi hoặc nhận ảnh/video nóng (nudes) chưa, và cảm giác lúc đó của bạn thế nào?"
   },
   {
-    "id": "work-r2",
-    "pack": "work",
+    "id": "fspicy-34",
+    "pack": "friends_spicy",
     "level": 3,
-    "question": "Có một đầu việc khó nhằn, một email hoặc một cuộc đối thoại khó khăn với đồng nghiệp/sếp mà bạn đã né tránh trì hoãn suốt thời gian gần đây không?"
+    "question": "Một sự thật mất lòng về chuyện tình cảm hoặc thói trăng hoa của một đứa trong nhóm này mà bấy lâu nay bạn ngại nói ra?"
   },
   {
-    "id": "work-hard-04",
-    "pack": "work",
+    "id": "fspicy-35",
+    "pack": "friends_spicy",
     "level": 3,
-    "question": "Nếu công ty yêu cầu bạn làm một việc vi phạm đạo đức nghề nghiệp hoặc lừa dối khách hàng để bảo vệ doanh thu, bạn có dám từ chối và chấp nhận bị cho nghỉ việc không?"
+    "question": "Thành thật từ đáy lòng: Hiện tại bạn có đang hoàn toàn thỏa mãn với đời sống tình dục của bản thân không, hay đang bị ức chế điều gì?"
   },
   {
-    "id": "work-hard-05",
-    "pack": "work",
+    "id": "fspicy-36",
+    "pack": "friends_spicy",
     "level": 3,
-    "question": "Khi được thăng chức lên làm sếp của những người từng là đồng nghiệp ngang hàng, bạn sẽ chọn làm lãnh đạo quyết đoán kỷ luật hay tiếp tục giữ vai trò bạn bè nể nang?"
-  },
-  {
-    "id": "work-hard-06",
-    "pack": "work",
-    "level": 3,
-    "question": "Giữa việc trở thành nhân sự xuất sắc không thể thay thế nhưng đánh đổi sức khỏe/đời tư, và việc làm nhân viên bình thường tròn vai có cuộc sống thảnh thơi, đâu là ưu tiên thực sự của bạn?"
+    "question": "Một lời thú nhận thầm kín về một trải nghiệm 18+ mà bạn hối hận nhất trong đời là gì?"
   }
 ]

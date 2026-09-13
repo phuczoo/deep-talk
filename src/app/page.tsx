@@ -17,18 +17,18 @@ export default function HomePage() {
   const [selectedMode, setSelectedMode] = useState<GameMode>('sequential');
   const [questionCounts, setQuestionCounts] = useState<Record<PackId, number>>({
     couple: 0,
+    couple_spicy: 0,
     friends: 0,
-    family: 0,
-    work: 0,
+    friends_spicy: 0,
   });
 
   // Calculate dynamic question counts per pack (defaults + custom)
   useEffect(() => {
     const counts: Record<PackId, number> = {
       couple: 0,
+      couple_spicy: 0,
       friends: 0,
-      family: 0,
-      work: 0,
+      friends_spicy: 0,
     };
 
     PACKS.forEach((p) => {
