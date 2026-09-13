@@ -9,9 +9,10 @@ import { shuffleArray } from '@/lib/utils';
 interface UseCardDeckOptions {
   packIds: PackId[];
   mode: GameMode;
+  enableDarePong?: boolean;
 }
 
-export function useCardDeck({ packIds, mode }: UseCardDeckOptions) {
+export function useCardDeck({ packIds, mode, enableDarePong = true }: UseCardDeckOptions) {
   const packKey = packIds.slice().sort().join(',');
 
   const [currentCard, setCurrentCard] = useState<Question | null>(null);
@@ -33,7 +34,10 @@ export function useCardDeck({ packIds, mode }: UseCardDeckOptions) {
     const activePacks = (packKey ? packKey.split(',') : []) as PackId[];
 
     // 1. Gather default questions from all selected packs
-    const defaults = (defaultQuestionsData as Question[]).filter((q) => activePacks.includes(q.pack));
+    let defaults = (defaultQuestionsData as Question[]).filter((q) => activePacks.includes(q.pack));
+    if (!enableDarePong) {
+      defaults = defaults.filter((q) => q.type !== 'dare');
+    }
     
     // 2. Gather custom questions from all selected packs
     const custom = activePacks.flatMap((pid) => getCustomQuestions(pid));
@@ -70,7 +74,7 @@ export function useCardDeck({ packIds, mode }: UseCardDeckOptions) {
     }
 
     setIsLoaded(true);
-  }, [packKey, mode]);
+  }, [packKey, mode, enableDarePong]);
 
   useEffect(() => {
     initDeck();

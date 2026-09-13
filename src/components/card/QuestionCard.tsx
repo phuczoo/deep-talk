@@ -31,16 +31,37 @@ export function QuestionCard({
     3: <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500/20" />,
   };
 
+  const isDare = question.type === 'dare';
+
   return (
-    <div className="relative w-full aspect-[4/5] max-h-[500px] min-h-[380px] rounded-3xl p-6 sm:p-8 flex flex-col justify-between shadow-xl border border-zinc-200/90 dark:border-zinc-800 bg-gradient-to-b from-white via-zinc-50/50 to-zinc-100/80 dark:from-zinc-900 dark:via-zinc-900/90 dark:to-zinc-950 transition-all duration-300 select-none">
-      {/* Background ambient glow based on pack */}
+    <div
+      className={`relative w-full aspect-[4/5] max-h-[500px] min-h-[380px] rounded-3xl p-6 sm:p-8 flex flex-col justify-between shadow-xl transition-all duration-300 select-none ${
+        isDare
+          ? 'border-2 border-amber-500/60 dark:border-amber-500/50 bg-gradient-to-b from-amber-500/10 via-white to-orange-50/60 dark:from-amber-950/40 dark:via-zinc-900 dark:to-zinc-950 ring-2 ring-amber-500/20'
+          : 'border border-zinc-200/90 dark:border-zinc-800 bg-gradient-to-b from-white via-zinc-50/50 to-zinc-100/80 dark:from-zinc-900 dark:via-zinc-900/90 dark:to-zinc-950'
+      }`}
+    >
+      {/* Background ambient glow based on pack or dare */}
       <div
-        className={`absolute -top-10 -right-10 w-48 h-48 rounded-full bg-gradient-to-br ${packInfo.color.gradient} blur-3xl pointer-events-none opacity-60 dark:opacity-40`}
+        className={`absolute -top-10 -right-10 w-48 h-48 rounded-full ${
+          isDare ? 'bg-gradient-to-br from-amber-500/30 to-orange-500/20' : `bg-gradient-to-br ${packInfo.color.gradient}`
+        } blur-3xl pointer-events-none opacity-60 dark:opacity-40`}
       />
 
       {/* Top Bar of Card */}
       <div className="relative z-10 flex items-center justify-between gap-2">
         <div className="flex flex-wrap items-center gap-2">
+          {/* Dare or Truth badge */}
+          {isDare ? (
+            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-black bg-amber-500 text-zinc-950 shadow-sm animate-pulse">
+              ⚡ THỬ THÁCH (DARE)
+            </span>
+          ) : (
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-semibold bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-700">
+              🗣️ NÓI THẬT
+            </span>
+          )}
+
           {/* Pack badge */}
           <span
             className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold border ${packInfo.color.badge}`}
@@ -53,7 +74,7 @@ export function QuestionCard({
             className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold border ${levelInfo.bgBadge}`}
           >
             {levelIcons[question.level]}
-            <span>Cấp {question.level}: {levelInfo.name}</span>
+            <span>Cấp {question.level}</span>
           </span>
 
           {/* Custom tag */}
@@ -81,8 +102,8 @@ export function QuestionCard({
       {/* Bottom Hint */}
       <div className="relative z-10 pt-4 border-t border-zinc-200/60 dark:border-zinc-800/60 flex items-center justify-between text-zinc-500 dark:text-zinc-400 text-xs">
         <span className="inline-flex items-center gap-1.5 font-medium">
-          <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-          Đọc to & chuyền máy sau câu trả lời
+          <span className={`w-2 h-2 rounded-full ${isDare ? 'bg-amber-500 animate-ping' : 'bg-emerald-500 animate-pulse'}`} />
+          {isDare ? 'Làm thử thách hoặc bấm Phạt Uống 🍺' : 'Đọc to & chuyền máy sau câu trả lời'}
         </span>
 
         <span className="text-[11px] font-medium text-zinc-400">

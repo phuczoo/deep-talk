@@ -9,6 +9,7 @@ export interface Question {
   pack: PackId;
   level: QuestionLevel;
   question: string;
+  type?: 'truth' | 'dare';
   isCustom?: boolean;
 }
 

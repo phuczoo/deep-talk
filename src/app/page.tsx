@@ -9,12 +9,13 @@ import { PACKS } from '@/data/packs';
 import { PackId, GameMode, Question } from '@/types';
 import defaultQuestionsData from '@/data/questions.json';
 import { getCustomQuestions } from '@/lib/storage';
-import { Play, Sparkles, Smartphone, HeartHandshake } from 'lucide-react';
+import { Play, Sparkles, Smartphone, HeartHandshake, Beer } from 'lucide-react';
 
 export default function HomePage() {
   const router = useRouter();
   const [selectedPacks, setSelectedPacks] = useState<PackId[]>(['couple']);
   const [selectedMode, setSelectedMode] = useState<GameMode>('sequential');
+  const [enableDarePong, setEnableDarePong] = useState<boolean>(true);
   const [questionCounts, setQuestionCounts] = useState<Record<PackId, number>>({
     couple: 0,
     couple_spicy: 0,
@@ -52,7 +53,7 @@ export default function HomePage() {
 
   const handleStartGame = () => {
     if (selectedPacks.length === 0) return;
-    router.push(`/play?packs=${selectedPacks.join(',')}&mode=${selectedMode}`);
+    router.push(`/play?packs=${selectedPacks.join(',')}&mode=${selectedMode}&dare=${enableDarePong ? 1 : 0}`);
   };
 
   const totalSelectedQuestions = selectedPacks.reduce(
@@ -111,6 +112,40 @@ export default function HomePage() {
             mode={selectedMode}
             onSelectMode={(mode) => setSelectedMode(mode)}
           />
+        </div>
+
+        {/* 3. Dare Pong Toggle */}
+        <div className="p-3.5 rounded-2xl border border-amber-500/30 bg-gradient-to-r from-amber-500/10 via-orange-500/5 to-transparent flex items-center justify-between gap-3">
+          <div className="flex items-center gap-2.5">
+            <div className="p-2.5 rounded-xl bg-amber-500/20 text-amber-500 border border-amber-500/30 shrink-0">
+              <Beer className="w-5 h-5" />
+            </div>
+            <div>
+              <div className="flex items-center gap-1.5 font-bold text-xs sm:text-sm text-zinc-900 dark:text-zinc-100">
+                <span>Chế độ Dare Pong & Phạt Uống</span>
+                <span className="px-1.5 py-0.5 rounded text-[10px] font-black bg-amber-500 text-zinc-950 uppercase">
+                  Hot
+                </span>
+              </div>
+              <p className="text-[11px] text-zinc-500 dark:text-zinc-400">
+                Kèm thử thách hành động đỏ mặt & nút phạt uống
+              </p>
+            </div>
+          </div>
+
+          <button
+            type="button"
+            onClick={() => setEnableDarePong(!enableDarePong)}
+            className={`w-12 h-6 flex items-center rounded-full p-1 cursor-pointer transition-colors duration-200 shrink-0 ${
+              enableDarePong ? 'bg-amber-500' : 'bg-zinc-300 dark:bg-zinc-700'
+            }`}
+          >
+            <div
+              className={`bg-white w-4 h-4 rounded-full shadow-md transform transition-transform duration-200 ${
+                enableDarePong ? 'translate-x-6' : 'translate-x-0'
+              }`}
+            />
+          </button>
         </div>
 
         {/* Start Button */}

@@ -7,6 +7,7 @@ import { QuestionCard } from '@/components/card/QuestionCard';
 import { CardControls } from '@/components/card/CardControls';
 import { LevelTransition } from '@/components/card/LevelTransition';
 import { SessionComplete } from '@/components/card/SessionComplete';
+import { DrinkPenaltyModal } from '@/components/card/DrinkPenaltyModal';
 import { Toast } from '@/components/ui/Toast';
 import { useCardDeck } from '@/hooks/useCardDeck';
 import { PackId, GameMode } from '@/types';
@@ -18,6 +19,8 @@ function PlayScreen() {
   const rawPacks = searchParams.get('packs');
   const rawPack = searchParams.get('pack') as PackId | null;
   const rawMode = searchParams.get('mode') as GameMode | null;
+  const rawDare = searchParams.get('dare');
+  const enableDarePong = rawDare === null ? true : rawDare !== '0';
 
   const packIds: PackId[] = useMemo(() => {
     let ids: PackId[] = [];
@@ -57,9 +60,10 @@ function PlayScreen() {
     prevCard,
     confirmLevel3Transition,
     restart,
-  } = useCardDeck({ packIds, mode });
+  } = useCardDeck({ packIds, mode, enableDarePong });
 
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+  const [isDrinkModalOpen, setIsDrinkModalOpen] = useState<boolean>(false);
 
   // Check pin status for current card
   const isPinned = currentCard ? isQuestionPinned(currentCard.id) : false;
@@ -125,6 +129,7 @@ function PlayScreen() {
                 onPrev={prevCard}
                 onTogglePin={handleTogglePin}
                 onShare={handleShare}
+                onDrinkPenalty={enableDarePong ? () => setIsDrinkModalOpen(true) : undefined}
                 canGoBack={canGoBack}
                 isPinned={isPinned}
               />
@@ -136,6 +141,16 @@ function PlayScreen() {
           </div>
         )}
       </main>
+
+      {/* Drink Penalty Modal */}
+      <DrinkPenaltyModal
+        isOpen={isDrinkModalOpen}
+        onClose={() => setIsDrinkModalOpen(false)}
+        onAcceptAndNext={() => {
+          setIsDrinkModalOpen(false);
+          nextCard();
+        }}
+      />
 
       {/* Toast popup */}
       {toastMessage && (
