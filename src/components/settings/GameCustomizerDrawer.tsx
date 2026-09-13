@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useMemo } from 'react';
-import { GameCustomSettings, PresetMood, QuestionLevel, DrinkIntensity, Question } from '@/types';
-import defaultQuestionsData from '@/data/questions.json';
+import { GameCustomSettings, PresetMood, QuestionLevel, DrinkIntensity, Question, PackId } from '@/types';
+import { buildDeck } from '@/lib/deck';
 import {
   X,
   Flame,
@@ -19,6 +19,8 @@ import {
 
 interface GameCustomizerDrawerProps {
   isOpen: boolean;
+  selectedPacks?: PackId[];
+  enableDarePong?: boolean;
   settings: GameCustomSettings;
   onClose: () => void;
   onChangeSettings: (settings: GameCustomSettings) => void;
@@ -27,6 +29,8 @@ interface GameCustomizerDrawerProps {
 
 export function GameCustomizerDrawer({
   isOpen,
+  selectedPacks = ['couple'],
+  enableDarePong = true,
   settings,
   onClose,
   onChangeSettings,
@@ -42,7 +46,7 @@ export function GameCustomizerDrawer({
           dareRatio: 0,
           levels: [1, 2],
           drinkIntensity: 'soft',
-          deckLimit: 30,
+          deckLimit: 0,
         });
         break;
       case 'date':
@@ -52,7 +56,7 @@ export function GameCustomizerDrawer({
           dareRatio: 30,
           levels: [2, 3],
           drinkIntensity: 'medium',
-          deckLimit: 35,
+          deckLimit: 0,
         });
         break;
       case 'party':
@@ -62,7 +66,7 @@ export function GameCustomizerDrawer({
           dareRatio: 50,
           levels: [1, 2, 3],
           drinkIntensity: 'hard',
-          deckLimit: 45,
+          deckLimit: 0,
         });
         break;
       case 'deeptalk':
@@ -72,7 +76,7 @@ export function GameCustomizerDrawer({
           dareRatio: 0,
           levels: [3],
           drinkIntensity: 'soft',
-          deckLimit: 30,
+          deckLimit: 0,
         });
         break;
       case 'custom':
@@ -97,31 +101,19 @@ export function GameCustomizerDrawer({
     });
   };
 
-  // Real-time estimated matched cards
+  // Real-time estimated matched cards using the exact single-source-of-truth deck builder
   const estimatedCardCount = useMemo(() => {
-    const questions = defaultQuestionsData as Question[];
-    let filtered = questions.filter((q) => settings.levels.includes(q.level));
-
-    // Spicy filter
-    if (settings.spicyLevel === 0) {
-      filtered = filtered.filter((q) => !q.pack.includes('spicy'));
-    } else if (settings.spicyLevel === 100) {
-      filtered = filtered.filter((q) => q.pack.includes('spicy'));
-    }
-
-    // Dare ratio filter
-    if (settings.dareRatio === 0) {
-      filtered = filtered.filter((q) => q.type !== 'dare');
-    } else if (settings.dareRatio === 100) {
-      filtered = filtered.filter((q) => q.type === 'dare');
-    }
-
-    const available = filtered.length;
-    if (settings.deckLimit && settings.deckLimit > 0) {
-      return Math.min(available, settings.deckLimit);
-    }
-    return available;
-  }, [settings]);
+    return buildDeck({
+      packIds: selectedPacks,
+      mode: 'sequential',
+      enableDarePong,
+      spicyLevel: settings.spicyLevel,
+      dareRatio: settings.dareRatio,
+      selectedLevels: settings.levels,
+      deckLimit: settings.deckLimit || 0,
+      shuffle: false,
+    }).length;
+  }, [selectedPacks, enableDarePong, settings]);
 
   if (!isOpen) return null;
 

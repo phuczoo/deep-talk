@@ -10,6 +10,7 @@ import { PACKS } from '@/data/packs';
 import { PackId, GameMode, Question, GameCustomSettings, PresetMood } from '@/types';
 import defaultQuestionsData from '@/data/questions.json';
 import { getCustomQuestions } from '@/lib/storage';
+import { buildDeck } from '@/lib/deck';
 import {
   Play,
   Sparkles,
@@ -37,7 +38,7 @@ export default function HomePage() {
     dareRatio: 30,
     levels: [1, 2, 3],
     drinkIntensity: 'medium',
-    deckLimit: 35,
+    deckLimit: 0,
   });
 
   const [questionCounts, setQuestionCounts] = useState<Record<PackId, number>>({
@@ -85,7 +86,7 @@ export default function HomePage() {
           dareRatio: 0,
           levels: [1, 2],
           drinkIntensity: 'soft',
-          deckLimit: 30,
+          deckLimit: 0,
         });
         setEnableDarePong(false);
         setSelectedPacks((prev) => {
@@ -100,7 +101,7 @@ export default function HomePage() {
           dareRatio: 30,
           levels: [2, 3],
           drinkIntensity: 'medium',
-          deckLimit: 35,
+          deckLimit: 0,
         });
         setEnableDarePong(true);
         setSelectedPacks(['couple', 'couple_spicy']);
@@ -112,7 +113,7 @@ export default function HomePage() {
           dareRatio: 50,
           levels: [1, 2, 3],
           drinkIntensity: 'hard',
-          deckLimit: 45,
+          deckLimit: 0,
         });
         setEnableDarePong(true);
         setSelectedPacks(['friends', 'friends_spicy']);
@@ -124,7 +125,7 @@ export default function HomePage() {
           dareRatio: 0,
           levels: [3],
           drinkIntensity: 'soft',
-          deckLimit: 30,
+          deckLimit: 0,
         });
         setEnableDarePong(false);
         setSelectedPacks((prev) => {
@@ -160,28 +161,17 @@ export default function HomePage() {
   );
 
   const estimatedQuestions = useMemo(() => {
-    let pool = (defaultQuestionsData as Question[]).filter((q) =>
-      selectedPacks.includes(q.pack)
-    );
-    pool = pool.filter((q) => customSettings.levels.includes(q.level));
-
-    if (customSettings.spicyLevel === 0) {
-      pool = pool.filter((q) => !q.pack.includes('spicy'));
-    } else if (customSettings.spicyLevel === 100) {
-      pool = pool.filter((q) => q.pack.includes('spicy'));
-    }
-
-    if (!enableDarePong || customSettings.dareRatio === 0) {
-      pool = pool.filter((q) => q.type !== 'dare');
-    } else if (customSettings.dareRatio === 100) {
-      pool = pool.filter((q) => q.type === 'dare');
-    }
-
-    if (customSettings.deckLimit && customSettings.deckLimit > 0) {
-      return Math.min(pool.length, customSettings.deckLimit);
-    }
-    return pool.length;
-  }, [selectedPacks, customSettings, enableDarePong]);
+    return buildDeck({
+      packIds: selectedPacks,
+      mode: selectedMode,
+      enableDarePong,
+      spicyLevel: customSettings.spicyLevel,
+      dareRatio: customSettings.dareRatio,
+      selectedLevels: customSettings.levels,
+      deckLimit: customSettings.deckLimit || 0,
+      shuffle: false,
+    }).length;
+  }, [selectedPacks, selectedMode, customSettings, enableDarePong]);
 
   return (
     <div className="flex flex-col flex-1 min-h-screen bg-zinc-50 dark:bg-zinc-950">
@@ -448,6 +438,8 @@ export default function HomePage() {
       {/* Game Customizer Drawer (Bottom-sheet) */}
       <GameCustomizerDrawer
         isOpen={isCustomizerOpen}
+        selectedPacks={selectedPacks}
+        enableDarePong={enableDarePong}
         settings={customSettings}
         onClose={() => setIsCustomizerOpen(false)}
         onChangeSettings={(newSettings) => setCustomSettings(newSettings)}
