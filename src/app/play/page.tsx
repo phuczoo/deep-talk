@@ -10,7 +10,7 @@ import { SessionComplete } from '@/components/card/SessionComplete';
 import { DrinkPenaltyModal } from '@/components/card/DrinkPenaltyModal';
 import { Toast } from '@/components/ui/Toast';
 import { useCardDeck } from '@/hooks/useCardDeck';
-import { PackId, GameMode } from '@/types';
+import { PackId, GameMode, QuestionLevel, DrinkIntensity } from '@/types';
 import { PACKS } from '@/data/packs';
 import { togglePinQuestion, isQuestionPinned } from '@/lib/storage';
 
@@ -21,6 +21,26 @@ function PlayScreen() {
   const rawMode = searchParams.get('mode') as GameMode | null;
   const rawDare = searchParams.get('dare');
   const enableDarePong = rawDare === null ? true : rawDare !== '0';
+
+  // Customizer params
+  const rawSpicy = searchParams.get('spicy');
+  const spicyLevel = rawSpicy !== null ? Number(rawSpicy) : undefined;
+
+  const rawDareRatio = searchParams.get('dareRatio');
+  const dareRatio = rawDareRatio !== null ? Number(rawDareRatio) : undefined;
+
+  const rawLevels = searchParams.get('levels');
+  const selectedLevels = useMemo(() => {
+    if (!rawLevels) return undefined;
+    return rawLevels
+      .split(',')
+      .map(Number)
+      .filter((n): n is QuestionLevel => [1, 2, 3].includes(n));
+  }, [rawLevels]);
+
+  const drinkIntensity = (searchParams.get('drink') as DrinkIntensity) || 'medium';
+  const rawLimit = searchParams.get('limit');
+  const deckLimit = rawLimit ? Number(rawLimit) : undefined;
 
   const packIds: PackId[] = useMemo(() => {
     let ids: PackId[] = [];
@@ -46,6 +66,13 @@ function PlayScreen() {
     [packIds]
   );
 
+  const headerSubtitle = useMemo(() => {
+    const parts = [mode === 'sequential' ? 'Tuần tự' : 'Ngẫu nhiên'];
+    if (spicyLevel !== undefined && spicyLevel > 0) parts.push(`🔥 Cay ${spicyLevel}%`);
+    if (dareRatio !== undefined && dareRatio > 0) parts.push(`⚡ ${dareRatio}% Dare`);
+    return parts.join(' • ');
+  }, [mode, spicyLevel, dareRatio]);
+
   const {
     isLoaded,
     currentCard,
@@ -60,7 +87,15 @@ function PlayScreen() {
     prevCard,
     confirmLevel3Transition,
     restart,
-  } = useCardDeck({ packIds, mode, enableDarePong });
+  } = useCardDeck({
+    packIds,
+    mode,
+    enableDarePong,
+    spicyLevel,
+    dareRatio,
+    selectedLevels,
+    deckLimit,
+  });
 
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [isDrinkModalOpen, setIsDrinkModalOpen] = useState<boolean>(false);
@@ -91,7 +126,7 @@ function PlayScreen() {
         showBack
         backHref="/"
         title={packNames}
-        subtitle={mode === 'sequential' ? 'Chế độ: Tuần tự' : 'Chế độ: Ngẫu nhiên'}
+        subtitle={headerSubtitle}
       />
 
       <main className="flex-1 px-4 py-5 flex flex-col justify-between max-w-md mx-auto w-full pb-8">
@@ -145,6 +180,7 @@ function PlayScreen() {
       {/* Drink Penalty Modal */}
       <DrinkPenaltyModal
         isOpen={isDrinkModalOpen}
+        drinkIntensity={drinkIntensity}
         onClose={() => setIsDrinkModalOpen(false)}
         onAcceptAndNext={() => {
           setIsDrinkModalOpen(false);
