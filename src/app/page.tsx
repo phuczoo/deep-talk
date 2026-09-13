@@ -46,6 +46,7 @@ export default function HomePage() {
     couple_spicy: 0,
     friends: 0,
     friends_spicy: 0,
+    tam_quan: 0,
   });
 
   // Calculate dynamic question counts per pack (defaults + custom)
@@ -55,6 +56,7 @@ export default function HomePage() {
       couple_spicy: 0,
       friends: 0,
       friends_spicy: 0,
+      tam_quan: 0,
     };
 
     PACKS.forEach((p) => {

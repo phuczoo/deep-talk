@@ -1587,5 +1587,355 @@
     "level": 3,
     "type": "dare",
     "question": "Thử Thách: Chụp một tấm ảnh selfie bằng camera góc rộng (0.5x) dìm hàng bản thân và cho cả bàn xem."
+  },
+  {
+    "id": "tq-01",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Đi ăn uống với một nhóm bạn mới quen nhưng có 1 người quên mang tiền/ví. Bạn sẽ tự động ứng tiền trả giúp hay gợi ý chia đều cho cả bàn chuyển khoản sau?"
+  },
+  {
+    "id": "tq-02",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Nếu bất ngờ nhận được 100 triệu, bạn sẽ dùng nó để đầu tư/tiết kiệm dự phòng an toàn hay tự thưởng cho mình một chuyến du lịch xa xỉ để xả stress?"
+  },
+  {
+    "id": "tq-03",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Khi chọn công việc: Một công việc yêu cầu tăng ca liên tục nhưng lương thưởng cực cao, hay một công việc nhàn nhã, tan làm đúng 5h chiều nhưng thu nhập vừa đủ sống?"
+  },
+  {
+    "id": "tq-04",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Bạn khó chịu với kiểu người nào hơn: Người luôn đến muộn 30 phút trong mọi cuộc hẹn hay người luôn hủy kèo vào phút chót? Bạn sẽ phản ứng ra sao nếu bạn thân làm vậy?"
+  },
+  {
+    "id": "tq-05",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Giữa việc đầu tư một món đồ hiệu đắt tiền dùng bền bỉ cả đời và việc mua nhiều món đồ bình dân theo xu hướng rồi đổi liên tục, phong cách chi tiêu của bạn nghiêng về bên nào?"
+  },
+  {
+    "id": "tq-06",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Nếu đồng nghiệp hoặc cấp trên công khai nhận công sức dự án của bạn trước mặt mọi người, bạn chọn lên tiếng đối chất làm rõ ngay lúc đó hay tìm cơ hội gặp riêng giải quyết?"
+  },
+  {
+    "id": "tq-07",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Bạn ưu tiên sống một mình để tận hưởng tự do tuyệt đối dù đôi khi cô đơn, hay sẵn sàng ở chung với bạn bè/người thân để tiết kiệm và vui vẻ dù phải san sẻ không gian riêng tư?"
+  },
+  {
+    "id": "tq-08",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Khi nhận được một món quà từ người khác mà bạn hoàn toàn không thích và không có nhu cầu dùng, bạn sẽ cất giữ làm kỷ niệm, đem tặng lại người cần hơn, hay bán thanh lý?"
+  },
+  {
+    "id": "tq-09",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Trong một cuộc tranh cãi trên mạng xã hội hoặc bàn tiệc, bạn nhất quyết bảo vệ lý lẽ đến cùng để tìm ra sự thật hay chủ động nhượng bộ buông xuôi cho êm ấm không khí?"
+  },
+  {
+    "id": "tq-10",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Bạn muốn có một mạng lưới xã giao rộng rãi cả trăm người quen biết, hay chỉ cần 1-2 người bạn tri kỷ mà cả tháng không nhắn tin nhưng khi cần luôn có mặt?"
+  },
+  {
+    "id": "tq-11",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Nếu vô tình nhặt được một chiếc ví có 20 triệu tiền mặt trên con đường vắng hoàn toàn không có camera hay nhân chứng, suy nghĩ đầu tiên loé lên trong đầu bạn là gì?"
+  },
+  {
+    "id": "tq-12",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Khi đi du lịch nghỉ dưỡng, bạn là kiểu người lên kế hoạch chi tiết từng giờ từng địa điểm, hay xách balo lên và đi theo cảm hứng đến đâu tính đến đó?"
+  },
+  {
+    "id": "tq-13",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Bạn có quan tâm đến việc xây dựng hình ảnh cá nhân chỉn chu, hoàn hảo trên mạng xã hội không, hay hoàn toàn để ngoài tai những gì người khác đánh giá về mình?"
+  },
+  {
+    "id": "tq-14",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Nếu có thể biết trước tương lai: Bạn muốn biết trước khoảnh khắc thành công rực rỡ nhất hay biết trước những sai lầm thảm họa nhất của đời mình để phòng tránh?"
+  },
+  {
+    "id": "tq-15",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Khi gặp khó khăn tài chính, việc vay tiền người thân trong nhà hay vay ngân hàng/tổ chức tài chính làm bạn cảm thấy ngại ngùng và áp lực tâm lý nặng nề hơn?"
+  },
+  {
+    "id": "tq-16",
+    "pack": "tam_quan",
+    "level": 1,
+    "type": "truth",
+    "question": "Khi đi ăn nhà hàng mà đồ ăn mang ra bị nguội hoặc sai món, bạn sẽ gọi nhân viên đổi ngay lập tức hay chấp nhận ăn luôn để đỡ phiền người khác?"
+  },
+  {
+    "id": "tq-17",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Giữa một người yêu bạn 100% say đắm nhưng kinh tế rất bấp bênh và một người có tài chính vững chãi nhưng tình cảm chỉ ở mức bình lặng, bạn chọn kết hôn với ai?"
+  },
+  {
+    "id": "tq-18",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Nếu phát hiện người yêu của bạn thân đang lén lút ngoại tình, bạn sẽ báo ngay sự thật cho bạn mình biết hay giữ im lặng để họ tự nhận ra?"
+  },
+  {
+    "id": "tq-19",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Khi xảy ra bất đồng sâu sắc với gia đình về người bạn muốn kết hôn, bạn chọn bảo vệ tình yêu đến cùng dù bố mẹ buồn lòng hay nghe theo lời khuyên của gia đình?"
+  },
+  {
+    "id": "tq-20",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Bạn chọn chấp nhận một lời nói dối thiện chí (White Lie) để bảo vệ cảm xúc của nhau, hay luôn bắt buộc phải nghe sự thật trần trụi dù nó làm tổn thương sâu sắc?"
+  },
+  {
+    "id": "tq-21",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Nếu công việc mơ ước cả đời đòi hỏi bạn phải đi tu nghiệp nước ngoài 3 năm, nhưng người yêu hiện tại kiên quyết bắt bạn ở lại hoặc chia tay, bạn chọn ngã rẽ nào?"
+  },
+  {
+    "id": "tq-22",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Bạn thân hỏi mượn toàn bộ số tiền tiết kiệm của bạn để kinh doanh nhưng khả năng rủi ro thất bại rất cao. Bạn từ chối thẳng thắn hay cho mượn và chấp nhận mất tiền?"
+  },
+  {
+    "id": "tq-23",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Khi một người từng phản bội hoặc làm tổn thương bạn sâu sắc đến xin lỗi thật lòng, bạn chọn tha thứ và cho họ cơ hội làm lại hay tha thứ trong im lặng và đoạn tuyệt mãi mãi?"
+  },
+  {
+    "id": "tq-24",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Bạn coi điều gì là nền tảng cốt lõi nhất để một mối quan hệ bền vững qua năm tháng: Sự đồng điệu về tâm hồn & thể xác, hay sự tương đồng về quan điểm tài chính & lối sống?"
+  },
+  {
+    "id": "tq-25",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Nếu công ty bạn làm việc có hành vi lách luật, trốn thuế nhưng mang lại nguồn thu nhập nuôi sống bạn rất tốt, bạn chọn nhắm mắt làm tiếp, lên tiếng tố cáo, hay âm thầm rút lui?"
+  },
+  {
+    "id": "tq-26",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Khi bạn không còn tình cảm với đối phương, bạn chọn dứt khoát chia tay ngay dù họ đang ở giai đoạn suy sụp nhất, hay ở lại an ủi cho đến khi họ hồi phục rồi mới nói?"
+  },
+  {
+    "id": "tq-27",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Bạn có chấp nhận việc người yêu hoặc bạn đời giữ mối quan hệ bạn bè bình thường và thỉnh thoảng hỏi thăm người yêu cũ không? Đâu là ranh giới của bạn?"
+  },
+  {
+    "id": "tq-28",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Nếu biết bạn thân vừa phạm phải một sai phạm nghiêm trọng nhưng chưa ai hay biết, bạn chọn khuyên họ ra đầu thú, giúp họ che giấu sai lầm, hay chủ động giữ khoảng cách?"
+  },
+  {
+    "id": "tq-29",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Trong việc giáo dục con cái sau này, bạn hướng đến phương pháp rèn giũa kỷ luật thép để con kiên cường, hay phương pháp bao dung để con tự do phát triển sở thích?"
+  },
+  {
+    "id": "tq-30",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Nếu biết ngay từ đầu rằng người mình yêu mang một căn bệnh di truyền khó có con hoặc tốn kém tiền bạc điều trị suốt đời, bạn chọn tiếp tục dấn bước hay dừng lại kịp lúc?"
+  },
+  {
+    "id": "tq-31",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Theo bạn, điều gì thể hiện bản chất thật của một người rõ nhất: Cách họ ứng xử khi họ đứng trên đỉnh cao quyền lực, hay cách họ đối đãi với người phục vụ, lao công, bảo vệ?"
+  },
+  {
+    "id": "tq-32",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Nếu vô tình phát hiện điện thoại người yêu sáng lên dòng tin nhắn đầy nhạy cảm từ người lạ, bạn chọn trực tiếp tra hỏi ngay lập tức hay âm thầm quan sát tìm thêm chứng cứ?"
+  },
+  {
+    "id": "tq-33",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Bạn nghĩ quan niệm 'Môn đăng hộ đối' về học thức, gia cảnh và nếp nhà trong tình yêu thời nay là một bảo chứng thực tế cho hạnh phúc hay là sự phân biệt cổ hủ?"
+  },
+  {
+    "id": "tq-34",
+    "pack": "tam_quan",
+    "level": 2,
+    "type": "truth",
+    "question": "Khi bạn bè cùng trang lứa lần lượt mua nhà, tậu xe, thăng tiến vượt bậc còn mình vẫn giậm chân tại chỗ, phản ứng tâm lý đầu tiên của bạn là ganh tỵ, lo âu, hay mừng cho bạn?"
+  },
+  {
+    "id": "tq-35",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Bài toán đạo đức tiến thoái lưỡng nan: Nếu phải đánh đổi danh dự và sự nghiệp của chính bản thân để cứu vớt một người vô tội khỏi bị oan ức tù đày, bạn có dũng cảm làm không?"
+  },
+  {
+    "id": "tq-36",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Bạn chọn cuộc đời nào: Một cuộc đời vĩ đại lưu danh thiên cổ nhưng bản thân phải sống trong cô đơn và dằn vặt, hay một cuộc đời bình dị, vô danh nhưng an yên bên người thân?"
+  },
+  {
+    "id": "tq-37",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Bạn sợ điều gì hơn: Bất ngờ ra đi khi còn trẻ với hàng ngàn ước mơ dang dở, hay sống thọ đến 90 tuổi nhưng phải chứng kiến tất cả những người mình yêu thương lần lượt qua đời?"
+  },
+  {
+    "id": "tq-38",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Nếu biết chắc mình chỉ còn đúng 24 giờ tồn tại trên cõi đời, người đầu tiên bạn muốn gặp để nói lời tạ lỗi hoặc cảm ơn sâu sắc là ai, và bạn sẽ nói điều gì?"
+  },
+  {
+    "id": "tq-39",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Về bản tính con người: Bạn tin con người sinh ra vốn dĩ lương thiện rồi bị xã hội làm vấy bẩn, hay con người sinh ra vốn ích kỷ và phải nhờ giáo dục để học cách hướng thiện?"
+  },
+  {
+    "id": "tq-40",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Nếu một bí mật sai lầm trong quá khứ của bạn bị chôn vùi, nhưng nếu im lặng thì một người đồng nghiệp bạn không thích sẽ gánh tội thay bạn, bạn chọn thú nhận hay im lặng?"
+  },
+  {
+    "id": "tq-41",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Theo bạn, loại phản bội nào là tàn nhẫn và khó dung thứ nhất: Phản bội về nhục dục thể xác, phản bội về niềm tin linh hồn, hay phản bội lại những lời thề ước lúc gian khó?"
+  },
+  {
+    "id": "tq-42",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Nếu có một thỏa thuận kỳ diệu: Bạn có thể giúp người mình yêu thương nhất có được cuộc đời hạnh phúc trọn vẹn, nhưng cái giá là ký ức của họ sẽ vĩnh viễn xóa sạch hình bóng của bạn. Bạn có đồng ý?"
+  },
+  {
+    "id": "tq-43",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Điều gì tạo nên phẩm giá cao quý nhất ở một con người: Lòng vị tha sẵn sàng hy sinh lợi ích bản thân vì cộng đồng, hay bản lĩnh quật cường không bao giờ chịu cúi đầu trước nghịch cảnh?"
+  },
+  {
+    "id": "tq-44",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Nếu người thân yêu nhất mắc bệnh hiểm nghèo đau đớn tột cùng và van xin bạn giúp họ thực hiện quyền an tử để giải thoát, bạn chọn tôn trọng tâm nguyện của họ hay kiên quyết níu kéo bằng mọi giá?"
+  },
+  {
+    "id": "tq-45",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Bạn có thực sự tin vào luật nhân quả tuần hoàn trong cuộc đời không, hay bạn cho rằng thế giới này vận hành ngẫu nhiên và kẻ mưu mẹo, tàn nhẫn thường là kẻ chiến thắng?"
+  },
+  {
+    "id": "tq-46",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Nếu có thể xóa đi một vết thương lòng lớn nhất trong quá khứ nhưng đổi lại bạn sẽ mất đi toàn bộ bài học và sự trưởng thành của ngày hôm nay, bạn có muốn xóa không?"
+  },
+  {
+    "id": "tq-47",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Giữa lòng trung thành tuyệt đối với người đã từng cưu mang, nâng đỡ mình và việc tuân thủ công lý, sự thật khách quan. Khi hai điều đó đối đầu nhau, bạn chọn đứng về bên nào?"
+  },
+  {
+    "id": "tq-48",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Khi về già nhìn lại hành trình cuộc đời, bạn nghĩ mình sẽ dằn vặt nhiều hơn vì những sai lầm mình đã lỡ làm, hay hối tiếc vì những khao khát cháy bỏng mà mình đã không dám thử?"
+  },
+  {
+    "id": "tq-49",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Nếu chỉ được chọn một cụm từ duy nhất làm tôn chỉ sống cho cả đời mình giữa: 'Chân Thật', 'Tử Tế', 'Tự Do' và 'Trách Nhiệm' — bạn chọn từ nào và tại sao?"
+  },
+  {
+    "id": "tq-50",
+    "pack": "tam_quan",
+    "level": 3,
+    "type": "truth",
+    "question": "Khi bạn nhắm mắt xuôi tay rời khỏi thế giới này, bạn muốn những người ở lại nhắc về bạn như thế nào: Một người thành đạt giàu có, một người tài năng kiệt xuất, hay một người chân thành tử tế?"
   }
 ]

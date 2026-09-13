@@ -57,6 +57,20 @@ export const PACKS: PackInfo[] = [
       gradient: 'from-purple-600/20 via-fuchsia-500/10 to-transparent',
     },
   },
+  {
+    id: 'tam_quan',
+    name: 'Tam Quan & Lựa Chọn',
+    subtitle: 'Thử thách giá trị sống & Ngã ba đường',
+    description: 'Những tình huống tiến thoái lưỡng nan, chọn 1 trong 2 để bộc lộ thế giới quan, nhân sinh quan và cách đối nhân xử thế.',
+    iconName: 'Scale',
+    color: {
+      primary: 'cyan-500',
+      bg: 'bg-cyan-500/10',
+      badge: 'bg-cyan-100 text-cyan-800 dark:bg-cyan-950/60 dark:text-cyan-300 border-cyan-200 dark:border-cyan-800',
+      border: 'border-cyan-200 hover:border-cyan-400 dark:border-cyan-900/60 dark:hover:border-cyan-700',
+      gradient: 'from-cyan-600/20 via-teal-500/10 to-transparent',
+    },
+  },
 ];
 
 export const LEVEL_INFO = {

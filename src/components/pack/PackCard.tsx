@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { PackInfo } from '@/types';
-import { HeartHandshake, Users, Flame, Wine, CheckCircle2 } from 'lucide-react';
+import { HeartHandshake, Users, Flame, Wine, Scale, CheckCircle2 } from 'lucide-react';
 
 interface PackCardProps {
   pack: PackInfo;
@@ -22,6 +22,7 @@ export function PackCard({
     Flame: <Flame className="w-5 h-5 text-red-500" />,
     Users: <Users className="w-5 h-5 text-amber-500" />,
     Wine: <Wine className="w-5 h-5 text-purple-500" />,
+    Scale: <Scale className="w-5 h-5 text-cyan-500" />,
   };
 
   return (

@@ -43,9 +43,11 @@ export function buildDeck({
   if (hasFriends) {
     targetPacks.push('friends', 'friends_spicy');
   }
-  if (targetPacks.length === 0) {
-    targetPacks.push(...activePacks);
-  }
+  activePacks.forEach((p) => {
+    if (!targetPacks.includes(p)) {
+      targetPacks.push(p);
+    }
+  });
 
   // 2. Gather questions (default + custom)
   const defaults = (defaultQuestionsData as Question[]).filter((q) =>
@@ -74,7 +76,7 @@ export function buildDeck({
 
   if (effectiveSpicy === 0) {
     pool = pool.filter((q) => !q.pack.includes('spicy'));
-  } else if (effectiveSpicy === 100) {
+  } else if (effectiveSpicy === 100 && pool.some((q) => q.pack.includes('spicy'))) {
     pool = pool.filter((q) => q.pack.includes('spicy'));
   } else {
     // Blend normal and spicy according to percentage
@@ -111,7 +113,7 @@ export function buildDeck({
 
   if (effectiveDare === 0) {
     pool = pool.filter((q) => q.type !== 'dare');
-  } else if (effectiveDare === 100) {
+  } else if (effectiveDare === 100 && pool.some((q) => q.type === 'dare')) {
     pool = pool.filter((q) => q.type === 'dare');
   } else {
     const truthCards = shuffle

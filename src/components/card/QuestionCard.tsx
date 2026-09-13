@@ -172,6 +172,8 @@ export function QuestionCard({
           ? 'border-2 border-amber-500/60 dark:border-amber-500/50 bg-gradient-to-b from-amber-500/10 via-white to-orange-50/60 dark:from-amber-950/40 dark:via-zinc-900 dark:to-zinc-950 ring-2 ring-amber-500/20'
           : isSpicy
           ? 'border-2 border-rose-500/60 dark:border-rose-500/50 bg-gradient-to-b from-rose-500/10 via-white to-pink-50/60 dark:from-rose-950/40 dark:via-zinc-900 dark:to-zinc-950 ring-2 ring-rose-500/20'
+          : question.pack === 'tam_quan'
+          ? 'border-2 border-cyan-500/50 dark:border-cyan-500/40 bg-gradient-to-b from-cyan-500/10 via-white to-teal-50/60 dark:from-cyan-950/30 dark:via-zinc-900 dark:to-zinc-950 ring-1 ring-cyan-500/20'
           : 'border border-zinc-200/90 dark:border-zinc-800 bg-gradient-to-b from-white via-zinc-50/50 to-zinc-100/80 dark:from-zinc-900 dark:via-zinc-900/90 dark:to-zinc-950'
       }`}
     >
@@ -212,6 +214,10 @@ export function QuestionCard({
           {isDare ? (
             <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-black bg-amber-500 text-zinc-950 shadow-sm animate-pulse">
               ⚡ THỬ THÁCH (DARE)
+            </span>
+          ) : question.pack === 'tam_quan' ? (
+            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold bg-cyan-500/15 text-cyan-700 dark:text-cyan-300 border border-cyan-500/30">
+              ⚖️ LỰA CHỌN TAM QUAN
             </span>
           ) : (
             <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-semibold bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-700">
