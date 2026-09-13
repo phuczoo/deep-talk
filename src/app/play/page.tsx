@@ -9,6 +9,7 @@ import { LevelTransition } from '@/components/card/LevelTransition';
 import { SessionComplete } from '@/components/card/SessionComplete';
 import { DrinkPenaltyModal } from '@/components/card/DrinkPenaltyModal';
 import { Toast } from '@/components/ui/Toast';
+import { PlayerManagerDrawer } from '@/components/player/PlayerManagerDrawer';
 import { useCardDeck } from '@/hooks/useCardDeck';
 import { PackId, GameMode, QuestionLevel, DrinkIntensity } from '@/types';
 import { PACKS } from '@/data/packs';
@@ -100,6 +101,52 @@ function PlayScreen() {
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [isDrinkModalOpen, setIsDrinkModalOpen] = useState<boolean>(false);
 
+  // Player Turn Management
+  const [players, setPlayers] = useState<string[]>(() => {
+    if (typeof window === 'undefined') return [];
+    try {
+      const saved = localStorage.getItem('chuyen_tro_players');
+      return saved ? JSON.parse(saved) : [];
+    } catch {
+      return [];
+    }
+  });
+  const [currentPlayerIndex, setCurrentPlayerIndex] = useState<number>(0);
+  const [isPlayerDrawerOpen, setIsPlayerDrawerOpen] = useState<boolean>(false);
+
+  const handleUpdatePlayers = (newPlayers: string[]) => {
+    setPlayers(newPlayers);
+    try {
+      localStorage.setItem('chuyen_tro_players', JSON.stringify(newPlayers));
+    } catch {
+      // ignore
+    }
+  };
+
+  const handleNextWithPlayer = () => {
+    if (players.length > 0) {
+      setCurrentPlayerIndex((prev) => (prev + 1) % players.length);
+    }
+    nextCard();
+  };
+
+  const handleSkipWithPlayer = () => {
+    if (players.length > 0) {
+      setCurrentPlayerIndex((prev) => (prev + 1) % players.length);
+    }
+    skipCard();
+  };
+
+  const handlePrevWithPlayer = () => {
+    if (players.length > 0) {
+      setCurrentPlayerIndex((prev) => (prev - 1 + players.length) % players.length);
+    }
+    prevCard();
+  };
+
+  const currentPlayer = players.length > 0 ? players[currentPlayerIndex % players.length] : undefined;
+  const nextPlayer = players.length > 1 ? players[(currentPlayerIndex + 1) % players.length] : undefined;
+
   // Check pin status for current card
   const isPinned = currentCard ? isQuestionPinned(currentCard.id) : false;
 
@@ -127,6 +174,8 @@ function PlayScreen() {
         backHref="/"
         title={packNames}
         subtitle={headerSubtitle}
+        onOpenPlayers={() => setIsPlayerDrawerOpen(true)}
+        playerCount={players.length}
       />
 
       <main className="flex-1 px-4 py-5 flex flex-col justify-between max-w-md mx-auto w-full pb-8">
@@ -144,7 +193,7 @@ function PlayScreen() {
           <LevelTransition onConfirm={confirmLevel3Transition} />
         ) : currentCard ? (
           <div className="flex-1 flex flex-col justify-between gap-6">
-            {/* The Main Flashcard */}
+            {/* The Main Flashcard with Swipe & Reveal */}
             <div className="flex-1 flex items-center justify-center">
               <QuestionCard
                 question={currentCard}
@@ -153,15 +202,19 @@ function PlayScreen() {
                 remainingCount={remainingCount}
                 isPinned={isPinned}
                 onTogglePin={handleTogglePin}
+                onNext={handleNextWithPlayer}
+                onSkip={handleSkipWithPlayer}
+                currentPlayer={currentPlayer}
+                nextPlayer={nextPlayer}
               />
             </div>
 
             {/* Bottom Actions */}
             <div className="w-full">
               <CardControls
-                onNext={nextCard}
-                onSkip={skipCard}
-                onPrev={prevCard}
+                onNext={handleNextWithPlayer}
+                onSkip={handleSkipWithPlayer}
+                onPrev={handlePrevWithPlayer}
                 onTogglePin={handleTogglePin}
                 onShare={handleShare}
                 onDrinkPenalty={enableDarePong ? () => setIsDrinkModalOpen(true) : undefined}
@@ -184,8 +237,18 @@ function PlayScreen() {
         onClose={() => setIsDrinkModalOpen(false)}
         onAcceptAndNext={() => {
           setIsDrinkModalOpen(false);
-          nextCard();
+          handleNextWithPlayer();
         }}
+      />
+
+      {/* Player Manager & Lucky Spin Drawer */}
+      <PlayerManagerDrawer
+        isOpen={isPlayerDrawerOpen}
+        players={players}
+        currentPlayerIndex={currentPlayerIndex}
+        onClose={() => setIsPlayerDrawerOpen(false)}
+        onUpdatePlayers={handleUpdatePlayers}
+        onSelectPlayerIndex={(idx) => setCurrentPlayerIndex(idx)}
       />
 
       {/* Toast popup */}

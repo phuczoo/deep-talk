@@ -3,6 +3,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import confetti from 'canvas-confetti';
 import { Play, Pause, RotateCcw, Clock, CheckCircle2 } from 'lucide-react';
+import {
+  playTickSound,
+  playSuccessFanfare,
+  vibrateSuccess,
+  vibrateMedium,
+  vibrateLight,
+} from '@/lib/sound';
 
 interface DareTimerProps {
   questionText: string;
@@ -35,15 +42,18 @@ export function DareTimer({ questionText }: DareTimerProps) {
     if (timerRef.current) clearInterval(timerRef.current);
   }, [questionText]);
 
-  // Countdown interval
+  // Countdown interval with Tick sound & Fanfare
   useEffect(() => {
     if (isRunning && timeLeft > 0) {
       timerRef.current = setInterval(() => {
         setTimeLeft((prev) => {
-          if (prev <= 1) {
+          const next = prev - 1;
+          if (next <= 0) {
             clearInterval(timerRef.current!);
             setIsRunning(false);
             setIsFinished(true);
+            playSuccessFanfare();
+            vibrateSuccess();
             try {
               confetti({
                 particleCount: 70,
@@ -55,7 +65,16 @@ export function DareTimer({ questionText }: DareTimerProps) {
             }
             return 0;
           }
-          return prev - 1;
+
+          // Play tick sound (urgent if <= 5s)
+          if (next <= 5) {
+            playTickSound(true);
+            vibrateMedium();
+          } else {
+            playTickSound(false);
+          }
+
+          return next;
         });
       }, 1000);
     }

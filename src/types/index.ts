@@ -58,3 +58,8 @@ export interface GameCustomSettings {
   deckLimit?: number; // 0 = all
 }
 
+export interface PlayerSessionState {
+  players: string[];
+  currentIndex: number;
+}
+

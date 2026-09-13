@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { ArrowRight, RotateCcw, Bookmark, FastForward, Share2, Beer } from 'lucide-react';
+import { playFlipSound, playSwipeSound, playPenaltyBuzzer, vibrateLight, vibratePenalty } from '@/lib/sound';
 
 interface CardControlsProps {
   onNext: () => void;
@@ -24,13 +25,44 @@ export function CardControls({
   canGoBack,
   isPinned,
 }: CardControlsProps) {
+  const handleNext = () => {
+    playFlipSound();
+    vibrateLight();
+    onNext();
+  };
+
+  const handleSkip = () => {
+    playSwipeSound();
+    vibrateLight();
+    onSkip();
+  };
+
+  const handlePrev = () => {
+    playSwipeSound();
+    vibrateLight();
+    onPrev();
+  };
+
+  const handleDrink = () => {
+    if (onDrinkPenalty) {
+      playPenaltyBuzzer();
+      vibratePenalty();
+      onDrinkPenalty();
+    }
+  };
+
+  const handlePin = () => {
+    vibrateLight();
+    onTogglePin();
+  };
+
   return (
     <div className="w-full flex flex-col gap-3">
       {/* Primary Action Button: Next Card & Drink Penalty */}
       <div className="flex gap-2">
         {onDrinkPenalty && (
           <button
-            onClick={onDrinkPenalty}
+            onClick={handleDrink}
             className="py-4 px-4 rounded-2xl bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-amber-700 dark:text-amber-300 font-bold text-sm flex items-center justify-center gap-1.5 active:scale-95 transition-all cursor-pointer shrink-0 shadow-sm"
             title="Không dám nói hoặc không dám làm? Bấm để nhận hình phạt uống!"
           >
@@ -40,7 +72,7 @@ export function CardControls({
         )}
 
         <button
-          onClick={onNext}
+          onClick={handleNext}
           className="flex-1 py-4 px-5 rounded-2xl bg-zinc-900 dark:bg-white text-white dark:text-zinc-900 font-bold text-base flex items-center justify-center gap-2 shadow-lg shadow-zinc-900/10 dark:shadow-white/10 hover:bg-zinc-800 dark:hover:bg-zinc-100 active:scale-[0.98] transition-all cursor-pointer"
         >
           <span>Câu tiếp theo</span>
@@ -52,7 +84,7 @@ export function CardControls({
       <div className="grid grid-cols-4 gap-2">
         {/* Back / Prev Button */}
         <button
-          onClick={onPrev}
+          onClick={handlePrev}
           disabled={!canGoBack}
           className={`py-3 rounded-xl border flex flex-col items-center justify-center gap-1 text-xs font-medium transition-all ${
             canGoBack
@@ -67,7 +99,7 @@ export function CardControls({
 
         {/* Skip Button */}
         <button
-          onClick={onSkip}
+          onClick={handleSkip}
           className="py-3 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 active:scale-95 flex flex-col items-center justify-center gap-1 text-xs font-medium transition-all cursor-pointer"
           title="Bỏ qua (để dành cuối ván)"
         >
@@ -77,7 +109,7 @@ export function CardControls({
 
         {/* Pin / Bookmark Button */}
         <button
-          onClick={onTogglePin}
+          onClick={handlePin}
           className={`py-3 rounded-xl border flex flex-col items-center justify-center gap-1 text-xs font-medium transition-all active:scale-95 cursor-pointer ${
             isPinned
               ? 'border-rose-300 dark:border-rose-800 bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400'
